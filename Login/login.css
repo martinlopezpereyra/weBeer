@@ -1,0 +1,68 @@
+body{
+  background-color: #000000;
+}
+/*Primera NAV*/
+
+nav ul{
+margin-top: 1%;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+.bg-light-primera-nav{
+background-color: black;
+}
+
+/*.navbar-light {
+  color: white;
+  font-size: 100%;
+}
+
+a{
+  font-family:'Copse', sans-serif;
+}*/
+
+form .btn{
+  color: white;
+  border-color:white;
+}
+/*Segunda NAV*/
+.bg-light{
+  background-color: white;
+}
+.navbar-nav .nav-link.active{
+  font-family: font-family:'Copse', sans-serif;
+}
+img{
+  width: 9%; height: 9%;
+%;
+}
+
+form{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: #000000;
+  color: #FAF9F9;
+}
+form{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: #000000;
+  color: #FAF9F9;
+}
+.footer-copyright{
+background-color: #000000;
+}
+
+a.copy{
+  color:#FAF9F9;
+  font-size: 90%;
+}
+#footer-form{
+margin-top: 20px;
+background-color: #FAF9F9;
+}
