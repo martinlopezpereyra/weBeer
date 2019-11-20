@@ -1,0 +1,82 @@
+/*body{
+  font-family: "Copse", sans-serif;
+}*/
+
+body {
+  height: 100%;
+  background-color: yellow;
+}
+
+/*Primera NAV*/
+
+nav ul{
+margin-top: 1%;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+.bg-light-primera-nav{
+background-color: black;
+}
+
+/*.navbar-light {
+  color: white;
+  font-size: 100%;
+}
+
+a{
+  font-family:'Copse', sans-serif;
+}*/
+
+form .btn{
+  color: white;
+  border-color:white;
+}
+/*Segunda NAV*/
+.bg-light{
+  background-color: white;
+}
+.navbar-nav .nav-link.active{
+  font-family: font-family:'Copse', sans-serif;
+}
+img{
+  width: 9%; height: 9%;
+%;
+}
+
+/*Carrousel*/
+
+section{
+}
+
+.contenedorCards{
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4F4848;
+  width: 100%;
+
+}
+div.card{
+  margin: 1.6%;
+  float:left;
+  /*display: inline-inline-block;*/
+  background-color: white;
+}
+
+div.card-body .btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+/*Footer*/
+.footer-copyright{
+background-color: black;
+}
+
+a.copy{
+  color: white;
+  font-size: 90%;
+}
