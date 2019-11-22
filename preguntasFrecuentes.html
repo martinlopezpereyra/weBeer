@@ -3,87 +3,192 @@
 
   <head>
     <meta charset="utf-8">
-    <title>WEBEER</title>
-    <link rel="stylesheet" href="css/preguntasFrecuentes.css">
+    <title>WeBeer!</title>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet">
+<!-- estefi--------------------------------------------------------------------->
+
+<meta charset="utf-8">
+<!-- Responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- CSS -->
+<link rel="stylesheet" href="css/index.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- Fuentes google -->
+<link href="https://fonts.googleapis.com/css?family=Copse&display=swap" rel="stylesheet">
+<!--<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
+<title>WE BEER</title>-->
+
   </head>
   <body>
+    <!-- NAV --------------------------------------------------------------------->
+    <!-- Primera NAV-->
+    <nav class="navbar navbar-light bg-light-primera-nav">
+      <!--Probando otra nav-->
+      <ul id="enLinea">
+        <li><a href="perfilusuario.html"><img class="iconos" src="img/iconos-perfil.png"></a></li>
+        <li><a href="login.html"><img class="iconos" src="img/iconos-login.png"></a></li>
+        <li><a href="preguntasFrecuentes.html"><img class="iconos" src="img/iconos-faq.png"></a></li>
+        <li><a href="https://www.entrecervezas.com/65-comprar-cervezas-lata"><img class="iconos" src="img/iconos-bolsa.png"></a></li>
+      </ul>
+      <!--<a class="navbar-brand">FAQ</a>
+      <a class="navbar-brand">FAQ</a>
+      <a class="navbar-brand">FAQ</a>-->
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">buscar</button>
+      </form>
+    </nav>
+    <!-- Segunda NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Mi agregado-->
+      <img src="img/we-beer-logo.png" alt="logo shop de cervezas">
+      <!---------------->
+      <!--<a class="navbar-brand" href="#">cervezas</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>-->
 
-    <h1> WE <br>BEER</h1>
-    <header class="">
-      PREGUNTAS FRECUENTES
-    </header><br>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">cervezas<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">promos</a>
+          <a class="nav-item nav-link" href="#">eventos</a>
+          <a class="nav-item nav-link" href="#">nosotros</a>
+          <!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+        </div>
+      </div>
+    </nav>
+    <!---ITEMS--------------------------------->
+    <div class="container">
 
-      <section>
+
+    <ul class="list-group mt-5">
+      <!--<CUENTA>-->
+
+      <li class="list-group-item d-flex justify-content-between align-items-center">
         Cuenta
-        <article  class="">
-           <a href="#">¿Cómo inicio sesión?</a>
-        </article>
-        <article class="">
-           <a href="#">¿Cómo asocio mi tarjeta?</a>
-        </article>
+        <!--<boton>-->
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        2
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">¿Cómo inicio sesión?</a>
+        <a class="dropdown-item" href="#">¿Cómo asocio mi tarjeta?</a>
+    </div>
+      </div>
+      </li>
 
-      </section>
 
-      <section>
-        Tienda online
-        <article class="">
-          <a href="#">¿Cuánto demora la entrega?</a>
-        </article>
+      <!--<TIENDA ONLINE>-->
 
-        <article class="">
-          <a href="#">¿Puedo cambiar mi dirección?</a>
-        </article>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+      Tienda online
+      <!--<boton>-->
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          3
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">¿Cuánto demora la entrega?</a>
+          <a class="dropdown-item" href="#">¿Puedo cambiar mi dirección?</a>
+          <a class="dropdown-item" href="#">¿Hacen envíos a todo el país?</a>
+      </div>
+      </li>
 
-        <article class="">
-          <a href="#">¿Hacen envíos a todo el país?</a>
-        </article>
+      <!--<FACTURACIÓN>-->
 
-      </section>
-
-      <section>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
         Facturación
-        <article class="">
-          <a href="#">¿Cuándo es mi última oportunidad de cancelar?</a>
-        </article>
+        <!--<boton>-->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            2
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">¿Cuándo es mi última oportunidad de cancelar?</a>
+            <a class="dropdown-item" href="#">¿Por qué se rechazó mi pago?</a>
+        </div>
+      </li>
 
-        <article class="">
-          <a href="#">¿Por qué se rechazó mi pago?</a>
-        </article>
-      </section>
+      <!--<CERVEZA>-->
 
-      <section>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
         Cerveza
-        <article class="">
-          <a href="#">¿Cuáles son glúten-free?</a>
-        </article>
+        <!--<boton>-->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            2
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">¿Cuáles son glúten-free?</a>
+            <a class="dropdown-item" href="#">¿Qué cervezas son veganas?</a>
+            </div>
+          </li>
+        </ul>
+        </div>
 
-        <article class="">
-          <a href="#">¿Qué cervezas son veganas?</a>
-        </article>
-      </section>
+        <div class="form-group">
+          <h2 class="text-uppercase">Consultas!!</h2>
+          <form class="was-validated">
+      </div>
+      <!--<CONSULTA>-->
+        <div class="consulta form-row d-flex justify-content-center align-items-center">
+            <!--<USUARIO>-->
+          <div class="form-group col-md-4">
+            <label for="inputEmail4">Usuario</label>
+          <input type="usuario" class="form-control" id="inputEmail4" placeholder="Usuario" required>
+          </div>
 
+              <!--<EMAIL>-->
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+            </div>
+
+            <!--<CONSULTA>-->
+          <div  class=" mb-3 col-md-8" >
+          <label for="validationTextarea">CONSULTA</label>
+          <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+          <br>
+          <button type="submit" class="btn btn-success ">Enviar</button>
+
+            </div>
+          </div>
+
+        </form>
+      </div>
   </body>
   <!-- Footer -->
-        <footer class="page-footer font-small blue pt-4">
+  <footer class="page-footer font-small blue pt-4">
+
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
+
       <!-- Grid row -->
       <div class="row">
+
         <!-- Grid column -->
         <div class="col-md-6 mt-md-0 mt-3">
+
           <!-- Content -->
           <h5 class="text-uppercase">NUESTRO SHOP</h5>
           <p>WE BEER SHOP es la una tienda especializada en la venta de bebidas alcohólicas y complementos, brinda un concepto diferenciador para todos sus clientes, somos una tienda de conveniencia. Originaria de Mendoza.</p>
+
         </div>
         <!-- Grid column -->
+
         <hr class="clearfix w-100 d-md-none pb-3">
+
         <!-- Grid column -->
         <div class="col-md-3 mb-md-0 mb-3">
 
           <!-- Links -->
           <h5 class="text-uppercase">CONTACTO</h5>
+
           <ul class="list-unstyled">
             <li>
               <a href="#!">+54 9 261 5251540</a>
@@ -98,15 +203,54 @@
               <a href="#!"></a>
             </li>
           </ul>
-        </div>
-                <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
 
         </div>
         <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">SEGUINOS!</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">FB /beershop </a>
+            </li>
+            <li>
+              <a href="#!">IG @beershop</a>
+            </li>
+            <li>
+              <a href="#!">YT /beershop</a>
+            </li>
+            <li>
+              <a href="#!"></a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
       </div>
       <!-- Grid row -->
+
     </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <a class="copy" href="ht"copyright" tps://mdbootstrap.com/education/bootstrap/"> ©2019 Copyright:mabeles.com</a>
+    </div>
+    <!-- Copyright -->
 
   </footer>
   <!-- Footer -->
+
+
+  <!-- JS -->
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+  </html>
