@@ -50,39 +50,419 @@ img{
 %;
 }
 
-/*Carrousel*/
+/*Carrousel ofertas*/
 
-section{
+/*Carrousel cards*/
+
+div.naranja{
+  background-color: #FF730B;
 }
-
 .contenedorCards{
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  background-color: #4F4848;
+  padding-bottom: 0;
+  background-color: #FF730B;
   width: 100%;
+  }
+
+  div.card{
+    margin: 1.6%;
+    float:left;
+    /*display: inline-inline-block;*/
+    background-color: white;
+  }
+
+  div.card-body .btn-primary {
+    background-color: black;
+    border-color: black;
+  }
+
+  div.bd-example{
+    width: 100%;
+    /*background-color: pink;*/
+  }
+
+  div.carrousel.container{
+    /*padding-top:0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;*/
+    /*background-color: pink;*/
+  }
+
+
+/*Nosotros*/
+.container{
+  /*margin-top: 5%;*/
+  /*background-color: white;*/
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: 30%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
-div.card{
-  margin: 1.6%;
-  float:left;
-  /*display: inline-inline-block;*/
-  background-color: white;
+.derecha{
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-around;*/
+  /*background-color: grey;*/
+}
+.izquierda{
+   /*background-color: pink;*/
+}
+.nosotros{
+  color: #FF730B;
+  margin-top: 12%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 220%;
+  font-weight: bold;
+}
+.fotoAmigos{
+  /*margin-top: 3%;*/
+  width: 100%;
+  height: 95%;
+
 }
 
-div.card-body .btn-primary {
-  background-color: black;
+/*PRODUCTOS*/
+
+/*Rubias*/
+.rubia{
+  font-family: 'Oswald', sans-serif;
+  font-size: 220%;
+  font-weight: bold;
+  background-color: #EDDE20;
+  color: black;
+  padding-left: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 0%;
+}
+
+.rubiaTipos{
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+  background-color: #F9ED7D;
+  color: #3F3F3F;
+  padding-left: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.productosRubia{
+  display: inline;
+  background-color: orange;
+  color: white;
+}
+.contenedorRubias{
+width: 100%;
+}
+
+.btnCardsRubias{
+  display: flex;
+  flex-direction: row;
+}
+
+div.btnCardsRubias .btn-primary .amarillo {
+  background-color: grey;
   border-color: black;
 }
 
+div.card{
+  background-color: white;
+  border: none;
+}
+
+section.container article.contenedorRubias div.card div.card-body a.btn.btn-primary{
+  border-color: #EDDE20;
+  background-color:  #EDDE20;
+  margin-right: 5%;
+}
+
+/*Negras*/
+.negras{
+  font-family: 'Oswald', sans-serif;
+  font-size: 220%;
+  background-color: black;
+  color: #fff;
+  padding-left: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 0%;
+}
+
+.negraTipos{
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+  background-color: grey;
+  color: #fff;
+  padding-left: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.productosRubia{
+  display: inline;
+  background-color: orange;
+  color: white;
+}
+.contenedorNegras{
+width: 100%;
+}
+
+/*Cards */
+article.contenedorNegras div.card-body{
+  padding-top: 0%;
+}
+
+.btnCardsNegras{
+  display: flex;
+  flex-direction: row;
+}
+
+div.btnCardsNegras .btn-primary .negro {
+  background-color: grey;
+  border-color: black;
+}
+
+div.card{
+  background-color: white;
+  border: none;
+}
+
+section.container article.contenedorNegras div.card div.card-body a.btn.btn-primary{
+  border-color: black;
+  background-color:  black;
+  margin-right: 5%;
+}
+
+/*Boton VER MAS--------------------------------*/
+
+div.verMas{
+display: flex;
+background-color: #fff;
+justify-content: center;
+margin-bottom: 4%;
+}
+
+div.verMas a.btn.btn-primary{
+border-color: #FF730B;
+background-color:  #FF730B;
+font-size: 120%;
+padding-top: 0.5%;
+padding-bottom: 0.5%;
+}
+
+/*--------------------------------------------*/
+
+/*.promosBancarias{
+  width: 83%;
+
+  padding-bottom: 0%;
+}*/
+
+
+div.verMas.btn-primary{
+margin: 0 auto;
+}
+
+/*Negras*/
+.negra{
+  background-color: black;
+  color: white;
+  padding-left: 6%;
+}
+
+
+
+
 /*Footer*/
-.footer-copyright{
+.promosBancarias{
+  width: 83%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0%;
+}
+
+/*=================footer css start==============*/
+.webintern-footer {
+background: #FF730B;
+}
+
+.webintern-footer-inner {
+padding-top: 20px;
+padding-bottom: 0px;
+}
+
+.webintern-footer-logo {
+display: inline-block;
+}
+
+.webintern-footer .webintern-footer-inner .simple-text p {
+color: #fff;
+margin-top: 17px;
+margin-bottom: 15px;
+}
+.simple-text p {
+font-size: 16px;
+color: #42435d;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+line-height: 22px;
+margin-bottom: 0;
+}
+
+.webintern-footer .webintern-footer-inner .simple-text a {
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+color: #f2c21a;
+font-size: 15px;
+}
+.footer-2 {
+padding-left: 55px;
+}
+.webintern_footer_title {
+margin-top: 0px;
+margin-bottom: 25px;
+}
+.webintern_footer_title small {
+font-family: 'Work Sans', sans-serif;
+color: #fff;
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+}
+.webintern_footer_title:after {
+content: '';
+display: block;
+width: 30px;
+height: 2px;
+/*background: #f2c21a;*/
+margin-top: 15px;
+}
+.webintern-footer-list {
+padding: 0;
+}
+.webintern-footer-list li {
+margin-bottom: 7.5px;
+list-style: none;
+}
+.webintern-footer-list a {
+position: relative;
+font-size: 15px;
+line-height: 18px;
+color: #fff;
+padding-left: 0;
+letter-spacing: 0.10px;
+font-family: 'Open Sans', sans-serif;
+}
+.footer-3 {
+padding-left: 65px;
+}
+.webintern-footer-inner .simple-text.last {
+color: #d5d5d5;
+font-size: 17px;
+font-style: italic;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+.tt-subscribe {
+position: relative;
+}
+.tt-subscribe input:not([type="submit"]) {
+width: 100%;
+height: 46px;
+background: #fff;
+font-size: 15px;
+color: #838486;
+padding-left: 20px;
+padding-right: 70px;
+border: 2px solid #fff;
+-moz-border-radius: 3px;
+border-radius: 3px;
+
+}
+.tt-subscribe-submit {
+background: #001b57;
+}
+
+.tt-subscribe-submit {
+position: absolute;
+top: 0;
+right: 0;
+width: 52px;
+height: 46px;
+font-size: 18px;
+line-height: 46px;
+color: #2a2a2a;
+text-align: center;
+background: #001b57;
+-moz-border-radius-topright: 3px;
+border-top-right-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+border-bottom-right-radius: 3px;
+}
+
+
+.tt-subscribe-submit i.fa-envelope:before {
+content: "\f0e0";
+position: relative;
+z-index: 1;
+color: #fff;
+}
+.tt-subscribe-submit input {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: black;
+border: 0;
+}
+ul.tt-socail {
+padding: 0;
+margin-top: 30px;
+}
+.tt-socail li {
+display: inline-block;
+margin-right: 10px;
+}
+.tt-socail a {
+display: block;
+width: 36px;
+height: 36px;
+font-size: 17px;
+line-height: 34px;
+color: #fff;
+text-align: center;
+border: 1px solid #fff;
+-moz-border-radius: 100%;
+border-radius: 100%;
+}
+.webintern_footer_title small {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+div.col-sm-6.col-md-3 img.logoFooter{
+    width: 26%;
+    height: 29%;
+}
+
+/*------------------------------------------------*/
+
+/*--Copyright-----------------------------*/
+div.footer-copyright{
 background-color: black;
 }
 
-a.copy{
-  color: white;
-  font-size: 90%;
+div.footer-copyright a.copy{
+color: #DBDAC3;
 }
 .h2, h2{
 font-weight: 80%;
