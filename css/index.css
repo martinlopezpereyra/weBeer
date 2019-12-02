@@ -463,3 +463,35 @@ background-color: black;
 div.footer-copyright a.copy{
 color: #DBDAC3;
 }
+.h2, h2{
+font-weight: 80%;
+text-align: center;
+font-family: 'Copse', sans-serif;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+h2.text-uppercase{
+  font-size: 200%;
+}
+h2{
+  margin-top: 25px;
+  font-size: 80%;
+  }
+
+button.btn.btn-success{
+    background-color: black;
+    border-color: black;
+  }
+  div.form-group{
+    margin-top: 3%;
+    font-size: 80%;
+  }
+
+button.btn.btn-succes{
+  align-items:center;
+}
+
+div.consulta{
+  width: 100%;
+
+}
