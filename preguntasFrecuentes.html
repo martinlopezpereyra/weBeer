@@ -13,6 +13,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- CSS -->
 <link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/preguntasFrecuentes.css">
+<link rel="stylesheet" href="css/header.css">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -23,119 +25,132 @@
 
   </head>
   <body>
-    <!-- NAV --------------------------------------------------------------------->
-    <!-- Primera NAV-->
-    <nav class="navbar navbar-light bg-light-primera-nav">
-      <!--Probando otra nav-->
-      <ul id="enLinea">
-        <li><a href="perfilusuario.html"><img class="iconos" src="img/iconos-perfil.png"></a></li>
-        <li><a href="login.html"><img class="iconos" src="img/iconos-login.png"></a></li>
-        <li><a href="preguntasFrecuentes.html"><img class="iconos" src="img/iconos-faq.png"></a></li>
-        <li><a href="https://www.entrecervezas.com/65-comprar-cervezas-lata"><img class="iconos" src="img/iconos-bolsa.png"></a></li>
-      </ul>
-      <!--<a class="navbar-brand">FAQ</a>
-      <a class="navbar-brand">FAQ</a>
-      <a class="navbar-brand">FAQ</a>-->
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">buscar</button>
-      </form>
-    </nav>
-    <!-- Segunda NAV-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <!-- Mi agregado-->
-      <img src="img/we-beer-logo.png" alt="logo shop de cervezas">
-      <!---------------->
-      <!--<a class="navbar-brand" href="#">cervezas</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>-->
+    <head>
+      <!-- Primera NAV-->
+        <nav id="botones" class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="login.html">Sign In</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="perfilusuario.html">Register</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
 
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">cervezas<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">promos</a>
-          <a class="nav-item nav-link" href="#">eventos</a>
-          <a class="nav-item nav-link" href="#">nosotros</a>
-          <!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+      <!-- Segunda NAV-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Mi agregado-->
+        <img src="img/we-beer-logo.png" alt="logo shop de cervezas">
+        <!---------------->
+        <!--<a class="navbar-brand" href="#">cervezas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>-->
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Cervezas<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Promos</a>
+            <a class="nav-item nav-link" href="#">Eventos</a>
+            <a class="nav-item nav-link" href="#">Nosotros</a>
+            <!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+          </div>
+        </div>
+            <ul id="navegar">
+              <li><a href="preguntasFrecuentes.html"><img class="iconos" src="img/header/icon-faqs.png"></a></li>
+              <li><a href=""><img class="iconos" src="img/header/icon-shopping-cart.png"></a></li>
+              <li><a href=""><img class="iconos" src="img/header/icon-beer.png"></a></li>
+              <li><a href=""><img class="iconos" src="img/header/icon-search.png"></a></li>
+          </ul>
+      </nav>
+
+
+    </head>
+
+            <!--<BOTONES>-->
+
+
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-block btn-link active" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Cuenta
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+           	¿Cómo inicio sesión?<br>
+    	   Debes darle al botón de Sign In si ya tenés un usuario creado y sino darle click al botón de Register y
+     registrarte.<br>
+    	¿Cómo asocio mi tarjeta?<br>
+    	En el formulario de registro asocias tu tarjeta
+          </div>
         </div>
       </div>
-    </nav>
-    <!---ITEMS--------------------------------->
-    <div class="container">
-
-
-    <ul class="list-group mt-5">
-      <!--<CUENTA>-->
-
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        Cuenta
-        <!--<boton>-->
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        2
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">¿Cómo inicio sesión?</a>
-        <a class="dropdown-item" href="#">¿Cómo asocio mi tarjeta?</a>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block active" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Tienda online
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+          ¿Cuánto demora la entrega?<br>
+          jahckashckjdscvsdkjv <br>
+    	    ¿Puedo cambiar mi dirección?<br>
+          jahckashckjdscvsdkjv <br>
+    	    ¿Hacen envíos a todo el país?<br>
+          jahckashckjdscvsdkjv
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-block btn-link active" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Facturación
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+           ¿Cuándo es mi última oportunidad de cancelar?<br>
+           jahckashckjdscvsdkjv <br>
+    	     ¿Por qué se rechazó mi pago?<br>
+           jahckashckjdscvsdkjv
+          </div>
+        </div>
+      </div>
+    <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-block btn-link active" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Cerveza
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+        	 ¿Cuáles son glúten-free?<br>
+           jahckashckjdscvsdkjv <br>
+        	 ¿Qué cervezas son veganas?<br>
+           jahckashckjdscvsdkjv
+           </div>
+        </div>
+      </div>
     </div>
-      </div>
-      </li>
 
 
-      <!--<TIENDA ONLINE>-->
-
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-      Tienda online
-      <!--<boton>-->
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          3
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">¿Cuánto demora la entrega?</a>
-          <a class="dropdown-item" href="#">¿Puedo cambiar mi dirección?</a>
-          <a class="dropdown-item" href="#">¿Hacen envíos a todo el país?</a>
-      </div>
-      </li>
-
-      <!--<FACTURACIÓN>-->
-
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        Facturación
-        <!--<boton>-->
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            2
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">¿Cuándo es mi última oportunidad de cancelar?</a>
-            <a class="dropdown-item" href="#">¿Por qué se rechazó mi pago?</a>
-        </div>
-      </li>
-
-      <!--<CERVEZA>-->
-
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        Cerveza
-        <!--<boton>-->
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            2
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">¿Cuáles son glúten-free?</a>
-            <a class="dropdown-item" href="#">¿Qué cervezas son veganas?</a>
-            </div>
-          </li>
-        </ul>
-        </div>
-
-        <div class="form-group">
-          <h2 class="text-uppercase">Consultas!!</h2>
-          <form class="was-validated">
-      </div>
       <!--<CONSULTA>-->
+
+
+
         <div class="consulta form-row d-flex justify-content-center align-items-center">
             <!--<USUARIO>-->
           <div class="form-group col-md-4">

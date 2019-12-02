@@ -12,9 +12,10 @@ body {
 nav ul{
 margin-top: 1%;
 }
-#enLinea{
-  width: 35%;
+a.nav-item{
+  width: 300%;
 }
+
 nav ul li {
   list-style: none;
   display: inline;
