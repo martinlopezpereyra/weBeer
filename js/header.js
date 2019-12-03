@@ -39,4 +39,3 @@ class nuevoHeader extends HTMLElement {
   }
 };
 window.customElements.define('nuevo-header', nuevoHeader);
->>>>>>> d1cead8280082c6a8d1383b4e9097e53b7251c8a
