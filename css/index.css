@@ -1,29 +1,25 @@
-/*body{
-  font-family: "Copse", sans-serif;
-}*/
-
 body {
   height: 100%;
   background-color: yellow;
 }
 
-/*Primera NAV*/
+/*Primera NAV
 
 nav ul{
 margin-top: 1%;
 }
 a.nav-item{
   width: 300%;
-}
+}*/
 
 nav ul li {
   list-style: none;
   display: inline;
 }
 
-.bg-light-primera-nav{
+/*.bg-light-primera-nav{
 background-color: black;
-}
+}*/
 
 /*.navbar-light {
   color: white;
@@ -34,11 +30,7 @@ a{
   font-family:'Copse', sans-serif;
 }*/
 
-form .btn{
-  color: white;
-  border-color:white;
-}
-/*Segunda NAV*/
+/*Segunda NAV
 .bg-light{
   background-color: white;
 }
@@ -48,9 +40,8 @@ form .btn{
 img{
   width: 9%; height: 9%;
 %;
-}
+}*/
 
-/*Carrousel ofertas*/
 
 /*Carrousel cards*/
 
@@ -59,13 +50,25 @@ div.naranja{
 }
 .contenedorCards{
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+  margin:0 auto;
   padding-bottom: 0;
   background-color: #FF730B;
   width: 100%;
   }
 
+
+
+div.oferta.card{
+  background-color: white;
+  margin-right: 5.7%;
+}
+
+div.card-body .btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+/*para todas las cards*/
   div.card{
     margin: 1.6%;
     float:left;
@@ -73,58 +76,51 @@ div.naranja{
     background-color: white;
   }
 
-  div.card-body .btn-primary {
-    background-color: black;
-    border-color: black;
-  }
+
 
   div.bd-example{
     width: 100%;
     /*background-color: pink;*/
   }
 
-  div.carrousel.container{
-    /*padding-top:0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;*/
-    /*background-color: pink;*/
+.container{
+    /*margin-top: 5%;*/
+    /*background-color: white;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
   }
 
 
+
 /*Nosotros*/
-.container{
-  /*margin-top: 5%;*/
-  /*background-color: white;*/
+
+div.derecha{
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.imagenNosotros{
+  display: block;
+  width: 17%;
+  margin: 0 auto;
+  align-self: center;
+}
+
+
+
+.historia{
+  font-size: 115%;
+  text-align: center;
   padding-top: 2%;
-  padding-bottom: 2%;
-  height: 30%;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-.derecha{
-  display: flex;
-  flex-direction: column;
-  /*justify-content: space-around;*/
-  /*background-color: grey;*/
-}
-.izquierda{
-   /*background-color: pink;*/
-}
-.nosotros{
-  color: #FF730B;
-  margin-top: 12%;
-  font-family: 'Oswald', sans-serif;
-  font-size: 220%;
-  font-weight: bold;
-}
-.fotoAmigos{
-  /*margin-top: 3%;*/
-  width: 100%;
-  height: 95%;
+  padding-left:20%;
+  padding-right:20%;
+  line-height: 125%;
 
 }
 
@@ -133,47 +129,28 @@ div.naranja{
 /*Rubias*/
 .rubia{
   font-family: 'Oswald', sans-serif;
-  font-size: 220%;
+  font-size: 155%;
   font-weight: bold;
   background-color: #EDDE20;
   color: black;
-  padding-left: 8%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-left: 11%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
   margin-bottom: 0%;
 }
 
 .rubiaTipos{
   font-family: 'Oswald', sans-serif;
-  font-size: 150%;
+  font-size: 146%;
   background-color: #F9ED7D;
   color: #3F3F3F;
-  padding-left: 8%;
+  padding-left: 11%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
-.productosRubia{
-  display: inline;
-  background-color: orange;
-  color: white;
-}
+
 .contenedorRubias{
 width: 100%;
-}
-
-.btnCardsRubias{
-  display: flex;
-  flex-direction: row;
-}
-
-div.btnCardsRubias .btn-primary .amarillo {
-  background-color: grey;
-  border-color: black;
-}
-
-div.card{
-  background-color: white;
-  border: none;
 }
 
 section.container article.contenedorRubias div.card div.card-body a.btn.btn-primary{
@@ -182,37 +159,54 @@ section.container article.contenedorRubias div.card div.card-body a.btn.btn-prim
   margin-right: 5%;
 }
 
+/*Cards */
+article.contenedorRubias div.card-body{
+  padding-top: 0%;
+  }
+
+.una.card{
+    margin-right:4.66%;
+    background-color: white;
+  }
+
+
+
+section .rubita .container{
+  padding-bottom: 0px;
+}
+
 /*Negras*/
 .negras{
   font-family: 'Oswald', sans-serif;
-  font-size: 220%;
+  font-size: 155%;
   background-color: black;
   color: #fff;
-  padding-left: 8%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-left: 11%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
   margin-bottom: 0%;
 }
 
 .negraTipos{
   font-family: 'Oswald', sans-serif;
-  font-size: 150%;
+  font-size: 146%;
   background-color: grey;
   color: #fff;
-  padding-left: 8%;
+  padding-left: 11%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
-.productosRubia{
-  display: inline;
-  background-color: orange;
-  color: white;
-}
+
 .contenedorNegras{
 width: 100%;
 }
 
 /*Cards */
+
+.dos.card{
+    margin-right:4.66%;
+    background-color: white;
+  }
 article.contenedorNegras div.card-body{
   padding-top: 0%;
 }
@@ -237,7 +231,9 @@ section.container article.contenedorNegras div.card div.card-body a.btn.btn-prim
   background-color:  black;
   margin-right: 5%;
 }
-
+section .negrita .container{
+  padding-bottom: 0px;
+}
 /*Boton VER MAS--------------------------------*/
 
 div.verMas{
@@ -251,29 +247,16 @@ div.verMas a.btn.btn-primary{
 border-color: #FF730B;
 background-color:  #FF730B;
 font-size: 120%;
-padding-top: 0.5%;
+padding-top: 0%;
 padding-bottom: 0.5%;
 }
-
-/*--------------------------------------------*/
-
-/*.promosBancarias{
-  width: 83%;
-
-  padding-bottom: 0%;
-}*/
-
 
 div.verMas.btn-primary{
 margin: 0 auto;
 }
 
-/*Negras*/
-.negra{
-  background-color: black;
-  color: white;
-  padding-left: 6%;
-}
+/*--------------------------------------------*/
+
 
 
 
