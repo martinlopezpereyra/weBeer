@@ -6,8 +6,7 @@ align-content: right;
 
 }
 
-
-
+ }
 /*nav dos*/
 nav ul li{
   size: 300%;
@@ -94,4 +93,3 @@ dl, ol, ul {
     justify-content: flex-end;
   }
 }
->>>>>>> d1cead8280082c6a8d1383b4e9097e53b7251c8a
