@@ -1,0 +1,29 @@
+.banner{
+  text-align: center;
+
+}
+
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.col{
+  margin-bottom: 50px;
+  margin-right: 10px;
+  float: right;
+}
+
+.form-group{
+  margin-bottom: 50px;
+}
+
+#boton{
+  text-align: center;
+}
+
+.form-control{
+  margin-top: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,505 @@
+/*SABRI
+
+/*nav uno*/
+div.container1{
+  overflow: hidden;
+  padding: 30px;
+}
+nav #botones{
+list-style-type: none;
+float: right;
+
+}
+
+.btn-dark{
+ margin-right: 1%;
+
+}
+ /*.btn-outline-dark .m-2*/
+
+/*nav dos*/
+div.navDos{
+  padding: 30px;
+}
+nav ul#navegar{
+  size: 300%;
+}
+
+.logo{
+  width: 12%;
+  margin-right: 3%;
+}
+div#navbarNavAltMarkup{
+
+}
+
+ul#navegar {
+list-style-type: none;
+  overflow: hidden;
+}
+li{
+  margin-left: 20px;
+float: right;
+
+  }
+a{
+  display: block;
+}
+dl, ol, ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
+
+@media(min-width:900px){
+  ul#navegar{
+    display: flex;
+  }
+}
+
+@media(min-width:900px){
+  nav#botones{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+
+
+/*Carrousel cards*/
+
+div.naranja{
+  background-color: #FF730B;
+}
+.contenedorCards{
+  overflow: hidden;
+  margin:0 ;
+  padding-bottom: 0;
+  background-color: #FF730B;
+  width: 100%;
+  }
+
+
+
+div.oferta.card{
+  background-color: white;
+  margin-right: 3%;
+}
+
+div.card-body .btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+/*para todas las cards*/
+  div.card{
+    margin: 1.6%;
+    float:left;
+    /*display: inline-inline-block;*/
+    background-color: white;
+  }
+
+
+
+  div.bd-example{
+    width: 100%;
+    /*background-color: pink;*/
+  }
+
+.container{
+    /*margin-top: 5%;*/
+    /*background-color: white;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+
+
+/*Nosotros*/
+
+div.derecha{
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.imagenNosotros{
+  display: block;
+  width: 17%;
+  margin: 0 auto;
+  align-self: center;
+}
+
+
+
+.historia{
+  font-size: 115%;
+  text-align: center;
+  padding-top: 2%;
+  padding-left:20%;
+  padding-right:20%;
+  line-height: 125%;
+
+}
+
+/*PRODUCTOS*/
+
+/*Rubias*/
+.rubia{
+  font-family: 'Oswald', sans-serif;
+  font-size: 155%;
+  font-weight: bold;
+  background-color: #EDDE20;
+  color: black;
+  padding-left: 11%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  margin-bottom: 0%;
+}
+
+.rubiaTipos{
+  font-family: 'Oswald', sans-serif;
+  font-size: 146%;
+  background-color: #F9ED7D;
+  color: #3F3F3F;
+  padding-left: 11%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.contenedorRubias{
+width: 100%;
+}
+
+section.container article.contenedorRubias div.card div.card-body a.btn.btn-primary{
+  border-color: #EDDE20;
+  background-color:  #EDDE20;
+  margin-right: 5%;
+}
+
+/*Cards */
+article.contenedorRubias div.card-body{
+  padding-top: 0%;
+  }
+
+.una.card{
+    margin-right:4.66%;
+    background-color: white;
+  }
+
+
+
+section .rubita .container{
+  padding-bottom: 0px;
+}
+
+/*Negras*/
+.negras{
+  font-family: 'Oswald', sans-serif;
+  font-size: 155%;
+  background-color: black;
+  color: #fff;
+  padding-left: 11%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  margin-bottom: 0%;
+}
+
+.negraTipos{
+  font-family: 'Oswald', sans-serif;
+  font-size: 146%;
+  background-color: grey;
+  color: #fff;
+  padding-left: 11%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.contenedorNegras{
+width: 100%;
+}
+
+/*Cards */
+
+.dos.card{
+    margin-right:4.66%;
+    background-color: white;
+  }
+article.contenedorNegras div.card-body{
+  padding-top: 0%;
+}
+
+.btnCardsNegras{
+  display: flex;
+  flex-direction: row;
+}
+
+div.btnCardsNegras .btn-primary .negro {
+  background-color: grey;
+  border-color: black;
+}
+
+div.card{
+  background-color: white;
+  border: none;
+}
+
+section.container article.contenedorNegras div.card div.card-body a.btn.btn-primary{
+  border-color: black;
+  background-color:  black;
+  margin-right: 5%;
+}
+section .negrita .container{
+  padding-bottom: 0px;
+}
+/*Boton VER MAS--------------------------------*/
+
+div.verMas{
+display: flex;
+background-color: #fff;
+justify-content: center;
+margin-bottom: 4%;
+}
+
+div.verMas a.btn.btn-primary{
+border-color: #FF730B;
+background-color:  #FF730B;
+font-size: 120%;
+padding-top: 0%;
+padding-bottom: 0.5%;
+}
+
+div.verMas.btn-primary{
+margin: 0 auto;
+}
+
+/*--------------------------------------------*/
+
+
+
+
+
+/*Footer*/
+.promosBancarias{
+  width: 83%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0%;
+}
+
+/*=================footer css start==============*/
+.webintern-footer {
+background: #FF730B;
+}
+
+.webintern-footer-inner {
+padding-top: 20px;
+padding-bottom: 0px;
+}
+
+.webintern-footer-logo {
+display: inline-block;
+}
+
+.webintern-footer .webintern-footer-inner .simple-text p {
+color: #fff;
+margin-top: 17px;
+margin-bottom: 15px;
+}
+.simple-text p {
+font-size: 16px;
+color: #42435d;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+line-height: 22px;
+margin-bottom: 0;
+}
+
+.webintern-footer .webintern-footer-inner .simple-text a {
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+color: #f2c21a;
+font-size: 15px;
+}
+.footer-2 {
+padding-left: 55px;
+}
+.webintern_footer_title {
+margin-top: 0px;
+margin-bottom: 25px;
+}
+.webintern_footer_title small {
+font-family: 'Work Sans', sans-serif;
+color: #fff;
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+}
+.webintern_footer_title:after {
+content: '';
+display: block;
+width: 30px;
+height: 2px;
+/*background: #f2c21a;*/
+margin-top: 15px;
+}
+.webintern-footer-list {
+padding: 0;
+}
+.webintern-footer-list li {
+margin-bottom: 7.5px;
+list-style: none;
+}
+.webintern-footer-list a {
+position: relative;
+font-size: 15px;
+line-height: 18px;
+color: #fff;
+padding-left: 0;
+letter-spacing: 0.10px;
+font-family: 'Open Sans', sans-serif;
+}
+.footer-3 {
+padding-left: 65px;
+}
+.webintern-footer-inner .simple-text.last {
+color: #d5d5d5;
+font-size: 17px;
+font-style: italic;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+.tt-subscribe {
+position: relative;
+}
+.tt-subscribe input:not([type="submit"]) {
+width: 100%;
+height: 46px;
+background: #fff;
+font-size: 15px;
+color: #838486;
+padding-left: 20px;
+padding-right: 70px;
+border: 2px solid #fff;
+-moz-border-radius: 3px;
+border-radius: 3px;
+
+}
+.tt-subscribe-submit {
+background: #001b57;
+}
+
+.tt-subscribe-submit {
+position: absolute;
+top: 0;
+right: 0;
+width: 52px;
+height: 46px;
+font-size: 18px;
+line-height: 46px;
+color: #2a2a2a;
+text-align: center;
+background: #001b57;
+-moz-border-radius-topright: 3px;
+border-top-right-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+border-bottom-right-radius: 3px;
+}
+
+
+.tt-subscribe-submit i.fa-envelope:before {
+content: "\f0e0";
+position: relative;
+z-index: 1;
+color: #fff;
+}
+.tt-subscribe-submit input {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: black;
+border: 0;
+}
+ul.tt-socail {
+padding: 0;
+margin-top: 30px;
+}
+.tt-socail li {
+display: inline-block;
+margin-right: 10px;
+}
+.tt-socail a {
+display: block;
+width: 36px;
+height: 36px;
+font-size: 17px;
+line-height: 34px;
+color: #fff;
+text-align: center;
+border: 1px solid #fff;
+-moz-border-radius: 100%;
+border-radius: 100%;
+}
+.webintern_footer_title small {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+div.col-sm-6.col-md-3 img.logoFooter{
+    width: 26%;
+    height: 29%;
+}
+
+/*------------------------------------------------*/
+
+/*--Copyright-----------------------------*/
+div.footer-copyright{
+background-color: black;
+}
+
+div.footer-copyright a.copy{
+color: #DBDAC3;
+}
+.h2, h2{
+font-weight: 80%;
+text-align: center;
+font-family: 'Copse', sans-serif;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+h2.text-uppercase{
+  font-size: 200%;
+}
+h2{
+  margin-top: 25px;
+  font-size: 80%;
+  }
+
+button.btn.btn-success{
+    background-color: black;
+    border-color: black;
+  }
+  div.form-group{
+    margin-top: 3%;
+    font-size: 80%;
+  }
+
+button.btn.btn-succes{
+  align-items:center;
+}
+
+div.consulta{
+  width: 100%;
+
+}

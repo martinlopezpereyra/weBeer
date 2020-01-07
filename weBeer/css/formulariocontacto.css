@@ -1,0 +1,33 @@
+h1{
+text-align: center;
+}
+
+
+body {
+background-color: black;
+color: white;
+}
+
+.form-group-row{
+  margin-top: 29px;
+  margin-right: 40px;
+}
+
+.input-group{
+  margin: 0px;
+    padding: 0;
+
+}
+.was-validated{
+  width: 100%;
+}
+
+.custom-file-label{
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+#validationTextarea{
+    margin-top: 30px;
+    margin-right: 100px;
+}
