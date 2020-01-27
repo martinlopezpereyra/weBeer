@@ -8,69 +8,160 @@
     <link rel="stylesheet" href="css/index.css">
 <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
 <!-- Iconos FONTAWSOME -->
     <script src="https://use.fontawesome.com/c028791fa3.js"></script>
 <!-- Fuentes google -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Copse&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Oswald|Copse&display=swap" rel="stylesheet">
     <!--<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
     <title>WE BEER</title>-->
     <title>We beer!</title>
   </head>
-  <body>
-    <nuevo-header>
-    </nuevo-header>
+  <body >
+
+      <header >
 
 
 
-<!-- BARRA ANTIGUA ----------------------------------------------->
-<!-- Primera NAV
-<nav class="container navbar navbar-light bg-light-primera-nav">
-     Probando otra nav
-  <ul id="enLinea">
-    <li><a href="perfilusuario.html"><img class="iconos" src="img/iconos-perfil.png"></a></li>
-    <li><a href="login.html"><img class="iconos" src="img/iconos-login.png"></a></li>
-    <li><a href="preguntasFrecuentes.html"><img class="iconos" src="img/iconos-faq.png"></a></li>
-    <li><a href="https://www.entrecervezas.com/65-comprar-cervezas-lata"><img class="iconos" src="img/iconos-bolsa.png"></a></li>
-  </ul>
-  <!--<a class="navbar-brand">FAQ</a>
-  <a class="navbar-brand">FAQ</a>
-  <a class="navbar-brand">FAQ</a>}
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FF730B; font-family: Quicksand;letter-spacing:0.05em"> <!--height: 3em;-->
+          <div class="container py-0">
+            <span style="font-size: 0.8em; color: black; font-weight: 600;" class="navbar-text">
+   Atención al Cliente: +54 9 261 5391245
+ </span>
 
+ <span>
+ <a href="https://www.eebria.com/login/auth/"><button style="font-size: 0.8em; font-weight: 400; letter-spacing:0.04em" type="button" class="btn btn-dark btn-sm">Iniciar sesión</button></a>
+ <a href="https://www.eebria.com/account/signup/"><button style="font-size: 0.8em; font-weight: 400; letter-spacing:0.04em" type="button" class="btn btn-dark btn-sm">Registrarme</button></a>
+ </span>
 
-  <!-- Esto es tuyo Sabri? :)
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">buscar</button>
-  </form>
+          </div>
+          </nav>
 
 
 
-<!--</nav>
- Segunda NAV
-<nav class="container navbar navbar-expand-lg navbar-light bg-light">
-  <!-- Mi agregado
-  <img src="img/we-beer-logo.png" alt="logo shop de cervezas">
+        <nav class="navbar navbar-expand-lg navbar-light  p-0">
+          <div class="container py-3">
+  <a class="navbar-brand  p-0"  href="#"><img  style="margin-right: 1.5em;" width="69" height="82" alt="logo"  src="img/we-beer-logo-footer.png" alt="logo shop de cervezas"></a>
+
+<!-- Menu hamburguesa-->
+  <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<!----------------------->
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<!-- Dropdown Cervezas -->
+<ul style="font-size: 0.84em; font-family: Quicksand; font-weight: 700; letter-spacing:0.15em;" class="navbar-nav mr-auto" >
+
+    <li   class="nav-item dropdown">
+        <a style="color: black"  class="nav-link dropdown-toggle"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CERVEZAS</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#CerveRubias" >Rubias</a>
+          <a class="dropdown-item" href="#">Negras</a>
+          <!--<div class="dropdown-divider"></div> -->
+          <a class="dropdown-item" href="#">Rojas</a>
+        </div>
+    </li>
+
+<!-- ANCLA
+
+<a id="nombre_del_marcador">Texto asociado al marcador</a>
+<a href="#CerveRubias">Inicio</a> -->
 
 
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#section">cervezas<span class="sr-only">(current)</span></a>
-      <!--ANCLA!!!!!
-      <a class="nav-item nav-link" href=#bancos>promos</a>
-      <a class="nav-item nav-link" href="#">eventos</a>
-      <a class="nav-item nav-link" href="#">nosotros</a>
 
-      <!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+<!------------------------>
+
+      <li class="nav-item">
+           <a style="color: black"  style=""class="nav-link" href="#anclaPromos">PROMOS</a>
+         </li>
+
+      <li class="nav-item">
+              <a style="color: black"  class="nav-link" href="#">EVENTOS</a>
+            </li>
+
+      <li class="nav-item">
+                    <a style="color: black"  class="nav-link" href="#anclaNosotros">NOSOTROS</a>
+                  </li>
+</ul>
 
 
-    </div>
+
+<ul class="navbar-nav mr-3">
+<li class="nav-item">
+     <a class="nav-link" href="#"><i style="font-size: 1.6em; color: black;" class="fa fa-shopping-cart"></i>
+</a>
+   </li>
+<li class="nav-item">
+        <a class="nav-link" href="#"><i style="font-size: 1.6em; color: black;" class="fa fa-question-circle"></i></a>
+      </li>
+
+<li class="nav-item">
+              <a class="nav-link" href="#"><i style="font-size: 1.6em; color: black;" class="fa fa-comment"></i></a>
+            </li>
+</ul>
+
+
+
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+      <button class="btn  my-2 my-sm-0" type="submit"><i style="font-size: 1.3em; color: black;" class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
   </div>
-</nav> -->
+</div>
+</nav>
 
 
+            <!-- Boton Ani
 
+            <button id="botones"type="button" class="btn btn-outline-dark m-2" data-toggle="modal"
+             data-target="#exampleModal" data-whatever="@getbootstrap">Contact us</button>
 
-<!-- Carrousel ofertas-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Consulta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </div>
+                  </button>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Usuario</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">E-mail</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="message-text" class="col-form-label">Consulta</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+
+                    </form>
+            </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </nav>
+
+<!-- Carrousel banner-->
 
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -111,46 +202,90 @@
   </a>
 </div>
 <!---------------------->
-<!-- Carrousel Cards - https://codepen.io/Riseley/pen/jRybZN -->
-<div class="naranja">
-<div class="carrousel container">
-<div class="contenedorCards">
-<div class="oferta card" style="width: 18rem;">
-  <img src="img/frangus.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">FRANGUS Especial Navidad/Botella 330ml</h5>
-    <p class="card-text">ARS 400 c/u<br>Maipú/Mendoza</p>
-    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+
+
+<!-- Carrousel ofertas 1-->
+
+
+
+<a id="anclaPromos"><div  class="naranja"></a>
+
+    <div class="container tituloPromos">
+  <h2 style="font-size: 1.5em; font-family: Quicksand; font-weight: 700; color: white; letter-spacing:0.15em;" class="pull-left ">NO TE PIERDAS ESTAS OFERTAS!</h2>
   </div>
-  </div>
-  <div class="oferta card" style="width: 18rem;">
-    <img src="img/wit-ipa.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">WIT IPA/Botella <br>330ml</h5>
-      <p class="card-text">ARS 500<br>San Carlos/Mendoza.</p>
-      <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-    </div>
-  </div>
-<div class="oferta card" style="width: 18rem;">
-  <img src="img/chachingo.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Chachingo Craft/Botella 330ml</h5>
-    <p class="card-text">ARS 300<br>Maipú/Mendoza.</p>
-    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-  </div>
-  </div>
+
+
+
+<div class="container pt-0 ">
+
+<div class="card-deck mt-0">
+
+      <div class="card text-center">
+
+
+
+              <img src="img/frangus.jpg" class="card-img-top" alt="...">
+
+
+            <div  class="card-body">
+              <h4><span class="badge badge-danger">-50%</span></h4>
+              <h5 class="card-title">FRANGUS Especial Navidad/Botella 330ml</h5>
+              <p class="card-text">$300<br>Maipú/Mendoza</p>
+              <a href="#" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+
+</div>
+      </div>
+
+      <div class="card text-center">
+        <img src="img/wit-ipa.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4><span class="badge badge-danger">-30%</span></h4>
+          <h5 class="card-title">WIT IPA/Botella <br>330ml</h5>
+          <p class="card-text">ARS 500<br>San Carlos/Mendoza.</p>
+          <a href="#" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+
+        </div>
+        </div>
+
+        <div class="card text-center">
+          <img src="img/wit-ipa.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4><span class="badge badge-danger">-50%</span></h4>
+            <h5 class="card-title">WIT IPA/Botella <br>330ml</h5>
+            <p class="card-text">ARS 500<br>San Carlos/Mendoza.</p>
+            <a href="#" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </div>
+          </div>
+
+      <div class="card text-center">
+        <img src="img/chachingo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4><span class="badge badge-danger">-20%</span></h4>
+          <h5 class="card-title">Chachingo Craft/Botella 330ml</h5>
+          <p class="card-text">ARS 300<br>Maipú/Mendoza.</p>
+          <a href="#" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+
+
+
+
+      </div>
 </div>
 </div>
 </div>
 <!---------------------->
 
+
 <!-- Nosotros -->
 <section class="container">
 
+
     <div class="derecha">
-        <img class="imagenNosotros" src="img/nosotros.png" alt="...">
-        <!--<h1 class="nosotros">NOSOTROS</h1>-->
-        <p class="historia">WE BEER SHOP es la una tienda especializada en la venta online de bebidas alcohólicas y complementos, brinda un concepto diferenciador para todos sus clientes, somos una tienda de conveniencia. Originaria de Mendoza.</p>
+        <!--<img class="imagenNosotros"  src="img/nosotros.png" alt="...">
+        <h1 class="nosotros">NOSOTROS</h1>-->
+        <a id="anclaNosotros"><p style="color: black; font-size: 1.2em; font-family: Quicksand; font-weight: 500; letter-spacing:0.1em; text-align: center; line-height: 1.3em;" class="historia">WE BEER SHOP es la una tienda especializada en la venta online de bebidas alcohólicas y complementos, brinda un concepto diferenciador para todos sus clientes, somos una tienda de conveniencia. Originaria de Mendoza.</p></a>
     </div>
 
 </section>
@@ -158,8 +293,12 @@
 
 <!-- Rubias -->
 
+
+<!--ANCLA!!!!!-->
+
+
 <article class="derechaRubia">
-<h1 class="rubia">RUBIAS</h1>
+<a id="CerveRubias"><h1 class="rubia">RUBIAS</h1></a>
 </article>
 
 <article class="derechaRubia">
@@ -317,6 +456,8 @@
 
 
 <!-- Footer -->
+
+
 
 <!--ANCLA!!!!!-->
 <a name="promosBancarias" id="bancos">
