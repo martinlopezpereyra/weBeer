@@ -5,13 +5,53 @@ body {
 
 
 
-/*Primera NAV
-nav ul{
-margin-top: 1%;
-}
-a.nav-item{
-  width: 300%;
-}*/
+
+/*Boton Search*/
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+
+    height: 60px;
+    background-color: #ffa808;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 160px;
+    caret-color:#ffa808;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
 
 nav ul li {
   list-style: none;
@@ -22,8 +62,39 @@ nav ul li {
 
 
 
-/*Carrousel cards*/
+/*SECCIÓN OFERTAS DESTACADAS*/
 
+/*Etiqueta de descuento*/
+
+div.naranja  div.container.pt-0  div:nth-child(1)  div:nth-child(1)  span{
+  color:#fff;
+  background-color:#dc3545;
+  height: 57px;
+  width: 57px;
+  border-radius:200px;
+  font-weight: bolder;
+  font-size:1.1em;
+  text-transform:uppercase;
+  padding:16px 7px;
+  display:block;
+  position:absolute;
+  top:10px;
+  left:0;
+  line-height: 1.2em;
+  margin-left: 0.6em;
+  margin-top: 0.1em;
+}
+
+
+
+div.container.tituloPromos h2 {
+font-size: 1.5em;
+font-family:'Quicksand';
+font-weight: 700;
+ color: white;
+ letter-spacing:0.15em;
+ margin-bottom: 0;
+}
 
 
 
@@ -38,53 +109,26 @@ div.naranja{
   width: 100%;
   }
 
-
-
-div.oferta.card{
-  background-color: white;
-  margin-right: 5.7%;
-}
-
-div.card-body .btn-primary {
-  background-color: black;
-  border-color: black;
-}
-
-/*para todas las cards*/
-  div.card{
-    margin: 1.6%;
-    float:left;
-    /*display: inline-inline-block;*/
-    background-color: white;
-  }
-
-
-
-  div.bd-example{
-    width: 100%;
-    /*background-color: pink;*/
+/*Botón cargar al Carrito*/
+  div.card-body .btn-primary {
+    background-color: black;
+    border-color: black;
   }
 
 .container{
-    /*margin-top: 5%;*/
-    /*background-color: white;*/
     padding-top: 2%;
     padding-bottom: 2%;
     height: 30%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
-  }
-
-
-
-/*Nosotros*/
+/*NOSOTROS*/
 
 div.derecha{
-  margin-top: 7%;
-  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 .imagenNosotros{
@@ -94,153 +138,157 @@ div.derecha{
   align-self: center;
 }
 
+/*PRODUCTOS AL LADO DERECHO DEL BUSCADOR LATERAL*/
 
-  /*transform:rotate(-20deg);*/
-}
-/*.historia{
-
-  padding-top: 2%;
-  padding-left:20%;
-  padding-right:20%;
-
-
-}*/
-
-/*PRODUCTOS*/
-
-/*Rubias*/
-.rubia{
-  font-family:'Oswald', sans-serif;
-  font-size: 155%;
-  font-weight: bold;
-  background-color: #EDDE20;
-  color: white;
-  padding-left: 11%;
-  padding-top: 0.7%;
-  padding-bottom: 0.7%;
-  margin-bottom: 0%;
+#CerveRubias .h3 {
+font-family:'Quicksand', sans-serif;
 }
 
-.rubiaTipos{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 146%;
-  background-color: #F9ED7D;
-  color: #3F3F3F;
-  padding-left: 11%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.contenedorRubias{
-width: 100%;
-}
-
-section.container article.contenedorRubias div.card div.card-body a.btn.btn-primary{
-  border-color: #EDDE20;
-  background-color:  #EDDE20;
-  margin-right: 5%;
-}
-
-/*Cards */
-article.contenedorRubias div.card-body{
-  padding-top: 0%;
-  }
-
-.una.card{
-    margin-right:4.66%;
-    background-color: white;
-  }
-
-
-
-section .rubita .container{
-  padding-bottom: 0px;
-}
-
-/*Negras*/
-.negras{
-  font-family: 'Oswald', sans-serif;
-  font-size: 155%;
-  background-color: black;
-  color: #fff;
-  padding-left: 11%;
-  padding-top: 0.7%;
-  padding-bottom: 0.7%;
-  margin-bottom: 0%;
-}
-
-.negraTipos{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 146%;
-  background-color: grey;
-  color: #fff;
-  padding-left: 11%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.contenedorNegras{
-width: 100%;
-}
-
-/*Cards */
-
-.dos.card{
-    margin-right:4.66%;
-    background-color: white;
-  }
-article.contenedorNegras div.card-body{
-  padding-top: 0%;
-}
-
-.btnCardsNegras{
-  display: flex;
-  flex-direction: row;
-}
-
-div.btnCardsNegras .btn-primary .negro {
-  background-color: grey;
-  border-color: black;
-}
-
+/*CARDS*/
+/*le quita un recuadro negro a las cards*/
 div.card{
   background-color: white;
   border: none;
 }
 
-section.container article.contenedorNegras div.card div.card-body a.btn.btn-primary{
-  border-color: black;
-  background-color:  black;
-  margin-right: 5%;
-}
-section .negrita .container{
-  padding-bottom: 0px;
-}
-/*Boton VER MAS--------------------------------*/
+/*SECCION PRODUCTOS - RUBIAS*/
 
-div.verMas{
-display: flex;
-background-color: #fff;
-justify-content: center;
-margin-bottom: 4%;
+/*Titulo Rubia*/
+.rubia{
+  font-family:'Quicksand', sans-serif;
+  font-size: 155%;
+  font-weight: bold;
+  background-color: #EDDE20;
+  color: white;
+  padding-left: 0.5em;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  margin-bottom: 0%;
 }
 
-div.verMas a.btn.btn-primary{
-border-color: #FF730B;
-background-color:  #FF730B;
-font-size: 120%;
-padding-top: 0%;
-padding-bottom: 0.5%;
+/*Variedades de Rubias*/
+.rubiaTipos{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #F9ED7D;
+  color: #3F3F3F;
+  padding-left: 0.5em;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
-div.verMas.btn-primary{
-margin: 0 auto;
+/*Descripcion de marca en las cards*/
+div.productos-content div.col-md-9 > div  p {
+color:grey;
 }
 
-/*--------------------------------------------*/
+/*MODAL dentro de button VER*/
+.contenedor-modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+/*Botones ver y carrito amarillas*/
+.contenedor-modal button {
+  position: relative;
+  top: 40%;
+}
 
+div.productos-content div.col-md-9 div.card-body.p-0  div button{
+  border-color: #EDDE20;
+  background-color:  #EDDE20;
+}
 
+div.productos-content  div.col-md-9 div a {
+  border-color: #EDDE20;
+  background-color: #EDDE20;
+}
 
+div.productos-content  div.col-md-9 div a .button {
+  border-color: #F9ED7D;
+  background-color:  #F9ED7D;
+}
+
+/*Etiqueta de descuento*/
+.product-new-label{
+  color:#fff;
+  background-color:#dc3545;
+  height: 45px;
+  width: 45px;
+  border-radius:200px;
+  font-weight: bolder;
+  font-size:12px;
+  text-transform:uppercase;
+  padding:7px 7px;
+  display:block;
+  position:absolute;
+  top:10px;
+  left:0;
+  line-height: 1.2em;
+}
+
+/*SECCION PRODUCTOS - NEGRAS*/
+
+/*Título*/
+.negra{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 155%;
+  background-color: black;
+  color: #fff;
+  padding-left: 0.5em;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  margin-bottom: 0%;
+  margin-top:2em;
+}
+
+/*Variedades de Negras*/
+.negraTipos{
+  font-family: 'Quicksand', sans-serif;
+  background-color: grey;
+  color: #fff;
+  padding-left: 0.5em;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/*Botones ver y carrito negras*/
+div.productos-content  div.col-md-9 div .btnCardsNegras a{
+  background-color: grey;
+  border-color: grey;
+}
+
+/*SECCION PRODUCTOS - ROJAS*/
+
+/*Título*/
+.roja{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 155%;
+  background-color: #912100;
+  color: #fff;
+  padding-left: 0.5em;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  margin-bottom: 0%;
+  margin-top:2em;
+}
+
+/*Variedades de Rojas*/
+.rojaTipos{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #d63000;
+  color: #fff;
+  padding-left: 0.5em;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/*Botones ver y carrito rojas*/
+
+div.productos-content  div.col-md-9 div .btnCardsRojas a{
+  background-color: #d63000;
+  border-color: #d63000;
+}
 
 
 /*Footer*/
