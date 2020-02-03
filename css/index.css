@@ -3,64 +3,26 @@ body {
   background-color: yellow;
 }
 
-
-
-
-/*Boton Search*/
-.searchbar{
-    margin-bottom: auto;
-    margin-top: auto;
-
-    height: 60px;
-    background-color: #ffa808;
-    border-radius: 30px;
-    padding: 10px;
-    }
-
-    .search_input{
-    color: white;
-    border: 0;
-    outline: 0;
-    background: none;
-    width: 0;
-    caret-color:transparent;
-    line-height: 40px;
-    transition: width 0.4s linear;
-    }
-
-    .searchbar:hover > .search_input{
-    padding: 0 10px;
-    width: 160px;
-    caret-color:#ffa808;
-    transition: width 0.4s linear;
-    }
-
-    .searchbar:hover > .search_icon{
-
-    background: white;
-    color: #e74c3c;
-    }
-
-    .search_icon{
-    height: 40px;
-    width: 40px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color:white;
-    text-decoration:none;
-    }
-
-nav ul li {
-  list-style: none;
-  display: inline;
+/*Botones Registrarme e Iniciar sesión*/
+body > header > nav:nth-child(1) > div > span:nth-child(2) > a:nth-child(1) > button{
+background-color: #ff9640;
+border-color: #ff9640;
 }
 
+body > header > nav:nth-child(1) > div > span:nth-child(2) > a:nth-child(2) > button{
+background-color: #ff9640;
+border-color: #ff9640;
+}
+/*Iconos fontAWSOME y Menu al lado del logo*/
 
+#navbarSupportedContent  ul.navbar-nav.mr-auto li a{
+  color:#5c534e;
+}
 
-
+#navbarSupportedContent  ul.navbar-nav.mr-3  li a{
+  color: #5c534e;
+  font-size: 1.5em;
+}
 
 /*SECCIÓN OFERTAS DESTACADAS*/
 
@@ -101,13 +63,7 @@ font-weight: 700;
 div.naranja{
   background-color: #FF730B;
 }
-.contenedorCards{
-  overflow: hidden;
-  margin:0 auto;
-  padding-bottom: 0;
-  background-color: #FF730B;
-  width: 100%;
-  }
+
 
 /*Botón cargar al Carrito*/
   div.card-body .btn-primary {
@@ -131,12 +87,18 @@ div.derecha{
   margin-bottom: 3%;
 }
 
-.imagenNosotros{
-  display: block;
-  width: 17%;
-  margin: 0 auto;
-  align-self: center;
+
+
+
+/*BUSCADOR LATERAL*/
+div.productos-content  div.col-md-3 section .espacioPublicitario{
+background-color:#f2f2f2;
+margin-left: 1.3em;
+margin-top:1.3em;
+padding-top: 2em ;
 }
+
+
 
 /*PRODUCTOS AL LADO DERECHO DEL BUSCADOR LATERAL*/
 
@@ -168,7 +130,7 @@ div.card{
 
 /*Variedades de Rubias*/
 .rubiaTipos{
-  font-family: 'Quicksand', sans-serif;
+  font-family:'Quicksand', sans-serif;
   background-color: #F9ED7D;
   color: #3F3F3F;
   padding-left: 0.5em;
@@ -300,92 +262,71 @@ div.productos-content  div.col-md-9 div .btnCardsRojas a{
 }
 
 /*=================footer css start==============*/
-.webintern-footer {
-background: #FF730B;
+
+
+
+footer{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  background-color:#ff821c;
 }
 
-.webintern-footer-inner {
-padding-top: 20px;
-padding-bottom: 0px;
+footer  div.container  div.text-center.col-md-4  form{
+  padding-right: 1.7em;
+  margin-top: 1.5em;
 }
 
-.webintern-footer-logo {
-display: inline-block;
+ footer  div.container  div  img{
+  width: 30%;
+  height: auto;
+  margin-bottom: 1.5em;
 }
 
-.webintern-footer .webintern-footer-inner .simple-text p {
-color: #fff;
-margin-top: 17px;
-margin-bottom: 15px;
-}
-.simple-text p {
-font-size: 16px;
-color: #42435d;
-font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-line-height: 22px;
-margin-bottom: 0;
+
+.webintern-footer-list {
+padding: 0;
+margin-top:1.3em;
 }
 
-.webintern-footer .webintern-footer-inner .simple-text a {
-font-family: 'Open Sans', sans-serif;
-font-weight: 700;
-color: #f2c21a;
-font-size: 15px;
+/*quita puntos y linea a las listas*/
+.webintern-footer-list li {
+
+margin-bottom: 0.6em;
+list-style: none;
+
 }
-.footer-2 {
-padding-left: 55px;
-}
-.webintern_footer_title {
-margin-top: 0px;
-margin-bottom: 25px;
-}
-.webintern_footer_title small {
-font-family: 'Work Sans', sans-serif;
-color: #fff;
-font-weight: 700;
-font-size: 18px;
-text-transform: uppercase;
-}
+
+
+
 .webintern_footer_title:after {
 content: '';
 display: block;
 width: 30px;
 height: 2px;
-/*background: #f2c21a;*/
+background: red;
 margin-top: 15px;
 }
-.webintern-footer-list {
-padding: 0;
-}
-.webintern-footer-list li {
-margin-bottom: 7.5px;
-list-style: none;
-}
+
+
 .webintern-footer-list a {
 position: relative;
 font-size: 15px;
 line-height: 18px;
+font-weight: normal;
 color: #fff;
 padding-left: 0;
-letter-spacing: 0.10px;
-font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px;
+font-family: 'Quicksand', sans-serif;
+
+
 }
-.footer-3 {
-padding-left: 65px;
-}
-.webintern-footer-inner .simple-text.last {
-color: #d5d5d5;
-font-size: 17px;
-font-style: italic;
-font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-}
+
 .tt-subscribe {
 position: relative;
 }
+
 .tt-subscribe input:not([type="submit"]) {
-width: 100%;
+width: 80%;
 height: 46px;
 background: #fff;
 font-size: 15px;
@@ -454,20 +395,7 @@ border: 1px solid #fff;
 -moz-border-radius: 100%;
 border-radius: 100%;
 }
-.webintern_footer_title small {
-    font-family: 'Work Sans', sans-serif;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-    text-transform: uppercase;
-}
 
-div.col-sm-6.col-md-3 img.logoFooter{
-    width: 26%;
-    height: 29%;
-}
-
-/*------------------------------------------------*/
 
 /*--Copyright-----------------------------*/
 div.footer-copyright{
@@ -475,37 +403,48 @@ background-color: black;
 }
 
 div.footer-copyright a.copy{
-color: #DBDAC3;
-}
-.h2, h2{
-font-weight: 80%;
-text-align: center;
-font-family: 'Copse', sans-serif;
-margin-top: 2%;
-margin-bottom: 2%;
-}
-h2.text-uppercase{
-  font-size: 200%;
-}
-h2{
-  margin-top: 25px;
-  font-size: 80%;
-  }
-
-button.btn.btn-success{
-    background-color: black;
-    border-color: black;
-  }
-  div.form-group{
-    margin-top: 3%;
-    font-size: 80%;
-  }
-
-button.btn.btn-succes{
-  align-items:center;
+color:#ff821c;
+letter-spacing:0.03em;
+font-weight: normal;
 }
 
-div.consulta{
-  width: 100%;
+/* MEDIA QUERIES*/
+
+/* Smartphones*/
+@media screen and (max-width:320px){
+
+  nav.navbar.navbar-expand-lg.navbar-light.p-0  div  a  img{
+  margin-left: 0.6em;
+  }
+
+/*ocultando espacio publicitario en version smart*/
+  div.productos-content div.col-md-3  section  div:nth-child(1){
+    display: none;
+  }
+
+  div.productos-content div.col-md-3  section  div:nth-child(2){
+    display: none;
+  }
+
+  div.productos-content div.col-md-3 section div:nth-child(3){
+  display: none;
+  }
+
+  div.productos-content div.col-md-3  section  div:nth-child(4){
+  display: none;
+  }
+/*termina ocultando espacio publicitario en version smart*/
+
+  footer  div.container  div  img{
+   width: 25%;
+   height: auto;
+   margin-bottom: 1.5em;
+   margin-top: 1.5em;
+ }
+
+div.productos-content  div.col-md-9  section.lasCervezasNegras img{
+  width: 80%;
+  height: auto;
+}
 
 }
