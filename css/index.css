@@ -115,6 +115,14 @@ div.card{
 
 /*SECCION PRODUCTOS - RUBIAS*/
 
+div.col-md-9 nav  ul  li a {
+  color:grey;
+}
+
+ul li a .page-item {
+  color:grey;
+}
+
 /*Titulo Rubia*/
 .rubia{
   font-family:'Quicksand', sans-serif;
@@ -261,6 +269,107 @@ div.productos-content  div.col-md-9 div .btnCardsRojas a{
   padding-bottom: 0%;
 }
 
+/*Modal promos bancarias*/
+
+
+
+ div.modal-header  div  img{
+width:600px;
+height:auto;
+
+margin top:20px;
+
+
+}
+
+.modal-confirm {
+
+		color: #8e8e8e;
+		width: 450px;
+	}
+	.modal-confirm .modal-content {
+
+    padding: 20px;
+		border-radius: 5px;
+		border: none;
+	}
+	.modal-confirm .modal-header {
+		border-bottom: none;
+    position: relative;
+		text-align: center;
+		border-radius: 5px 5px 0 0;
+	}
+
+	.modal-confirm .form-control, .modal-confirm .btn {
+		min-height: 40px;
+		border-radius: 3px;
+	}
+	.modal-confirm .close {
+		background: #c0c3c8;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		color: #fff;
+		text-shadow: none;
+		opacity: 0.5;
+		width: 22px;
+		height: 22px;
+		border-radius: 20px;
+		font-size: 16px;
+	}
+	.modal-confirm .close span {
+		position: relative;
+		top: -1px;
+	}
+	.modal-confirm .close:hover {
+		opacity: 0.8;
+	}
+	.modal-confirm .icon-box {
+		color: #f95858;
+		display: inline-block;
+		z-index: 9;
+		text-align: center;
+		position: relative;
+		transform: scale(1.5);
+	}
+
+	.modal-confirm .icon-box i:last-child {
+		font-size: 26px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: 44px;
+	}
+
+    .modal-body{
+      font-family: 'Quicksand', sans-serif;
+    }
+
+
+    .modal-confirm .btn {
+    color: #fff;
+    border-radius: 4px;
+		background: #FF730B;
+		text-decoration: none;
+		transition: all 0.4s;
+    line-height: normal;
+		border-radius: 3px;
+		margin:  0 10px;
+		padding: 6px 10px;
+		min-width: 150px;
+    border: none;
+    }
+	.modal-confirm .btn:hover, .modal-confirm .btn:focus {
+		background: #eda645;
+		outline: none;
+	}
+	.trigger-btn {
+		display:inline-block;
+		padding-top:1.5em;
+	}
+/*Cierra Modal promos bancarias*/
+
 /*=================footer css start==============*/
 
 
@@ -268,7 +377,7 @@ div.productos-content  div.col-md-9 div .btnCardsRojas a{
 footer{
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
-  background-color:#ff821c;
+  background-color:#FF730B;
 }
 
 footer  div.container  div.text-center.col-md-4  form{
@@ -403,7 +512,7 @@ background-color: black;
 }
 
 div.footer-copyright a.copy{
-color:#ff821c;
+color:#FF730B;
 letter-spacing:0.03em;
 font-weight: normal;
 }
