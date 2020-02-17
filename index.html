@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-<!-- Responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- CSS -->
-    <link rel="stylesheet" href="css/index.css">
-<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <head>
+        <meta charset="utf-8">
+        <!-- Responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/index.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Iconos FONTAWSOME -->
+        <script src="https://use.fontawesome.com/c028791fa3.js"></script>
+        <!-- Fuentes google -->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Oswald|Copse&display=swap" rel="stylesheet">
+  </head>
 
-</head>
-    <!-- Iconos FONTAWSOME -->
-    <script src="https://use.fontawesome.com/c028791fa3.js"></script>
-    <!-- Fuentes google -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand|Oswald|Copse&display=swap" rel="stylesheet">
-    <!--<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
-    <title>WE BEER</title>-->
+
     <title>We beer!</title>
-</head>
 
 
-<body >
+<body>
     <header>
-          <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FF730B; font-family: Quicksand;letter-spacing:0.05em"> <!--height: 3em;-->
+          <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FF730B; font-family: Quicksand;letter-spacing:0.05em">
               <div class="container py-0">
+
                     <span style="font-size: 0.8em; color: black; font-weight: 600;" class="navbar-text">
                      Atención al Cliente: +54 9 261 5391245
                     </span>
@@ -32,6 +31,7 @@
                        <a href="https://www.eebria.com/login/auth/"><button style="; font-size:0.8em; font-weight: 400; letter-spacing:0.04em" type="button" class="btn btn-dark btn-sm">Iniciar sesión</button></a>
                        <a href="https://www.eebria.com/account/signup/"><button style="font-size: 0.8em; font-weight: 400; letter-spacing:0.04em" type="button" class="btn btn-dark btn-sm">Registrarme</button></a>
                      </span>
+
               </div>
           </nav>
 
@@ -68,14 +68,17 @@
                          <a class="nav-link" href="#anclaPromos">PROMOS</a>
                 </li>
                 <li class="nav-item">
-                        <a  class="nav-link" href="#">EVENTOS</a>
+                        <a  class="nav-link" href="#anclaNosotros">NOSOTROS</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#anclaNosotros">NOSOTROS</a>
+                        <a class="nav-link" href="#">CONTACTO</a>
                 </li>
             </ul><!-- Cierra Menu -->
 
             <ul class="navbar-nav mr-3"><!-- Iconos Fontawsome-->
+                <li class="nav-item">
+                      <a class="nav-link" href="perfilUsuIndex.html"><i class="fa fa-user-circle"></i></a>
+                </li>
                 <li class="nav-item">
                          <a class="nav-link" href="#"><i  class="fa fa-shopping-cart"></i>
                         </a>
@@ -83,65 +86,6 @@
                 <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa fa-question-circle"></i></a>
                 </li>
-
-
-                <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-comment"></i></a>
-
-                        <!--Abre boton para activar  Modal
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contactános</button>
-                        <!--Cierra boton para activar  Modal-->
-
-                        <!--Abre Modal
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Consulta</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                                <form>
-                                  <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Nombre y Apellido</label>
-                                    <input type="text" class="form-control" id="recipient-name">
-                                  </div>
-
-                                  <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Usuario</label>
-                                    <input type="text" class="form-control" id="recipient-name">
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">E-mail</label>
-                                    <input type="text" class="form-control" id="recipient-name">
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="message-text" class="col-form-label">Consulta</label>
-                                    <textarea class="form-control" id="message-text"></textarea>
-                                  </div>
-
-                                </form>
-                        </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                <button type="button" class="btn btn-primary">Enviar</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div><!--cierra Modal-->
-                  </li>
-
-
-
-
-
-
-
-
-
-
 
 
             </ul>
@@ -283,6 +227,7 @@
       <div class="derecha">
           <a id="anclaNosotros"><p style="color: black; font-size: 1.2em; font-family: Quicksand; font-weight: 500; letter-spacing:0.02em; text-align: center; line-height: 1.3em;" class="historia">WE BEER SHOP es una tienda especializada en la venta online de bebidas alcoholicas y complementos, brinda un concepto diferenciador para todos sus clientes, somos una tienda de conveniencia. Originaria de Mendoza.</p></a>
           <img src="img/condiciones.png" class="card-img-top" alt="...">
+          <img src="img/condiciones-small.png" class="card-img-top" alt="...">
       </div>
 </section><!-----Cierra Nosostros----->
 
@@ -769,6 +714,15 @@
 <div class="text-center">
 <a name="promosBancarias " id="bancos" href="#myModal" class="trigger-btn" data-toggle="modal">
 <img src="img/785X40.jpg" class="mb-3 promosBancarias" alt="promos bancarias"></a>
+
+
+	<!-- Button HTML (to Trigger Modal) -->
+
+</div>
+
+<div class="text-center">
+<a name="promosBancarias " id="bancos" href="#myModal" class="trigger-btn" data-toggle="modal">
+<img src="img/tarjetas-small.png" class="mb-3 promosBancarias" alt="promos bancarias"></a>
 
 
 	<!-- Button HTML (to Trigger Modal) -->

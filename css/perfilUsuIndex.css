@@ -1,18 +1,42 @@
+body  header div {
+  font-family: "Quicksand";
+  background-color: #888585;
+}
+
+.container{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Botones Registrarme e Iniciar sesión*/
+body > header > nav:nth-child(1) > div > span:nth-child(2) > a:nth-child(1) > button{
+background-color: #ff9640;
+border-color: #ff9640;
+}
+
+body > header > nav:nth-child(1) > div > span:nth-child(2) > a:nth-child(2) > button{
+background-color: #ff9640;
+border-color: #ff9640;
+}
+/*Iconos fontAWSOME y Menu al lado del logo*/
+
+#navbarSupportedContent  ul.navbar-nav.mr-auto li a{
+  color:#5c534e;
+}
+
+#navbarSupportedContent  ul.navbar-nav.mr-3  li a{
+  color: #5c534e;
+  font-size: 1.5em;
+}
+
+
 button.btn.btn-lg.btn-success {
     background-color: #FF730B;
     border-color: #FF730B;
-}
-
-body > header > div > div {
-  font-family: "Quicksand";
-  background-color: #888585;
-
-}
-body > header > nav:nth-child(1) {
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
 }
 
 body > header > div {
@@ -24,23 +48,6 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 
-body > header > nav:nth-child(2) {
-  margin-bottom: 50px;
-}
-body > header > nav:nth-child(2) > div {
-  margin-left: 100px;
-}
-
-#navbarSupportedContent {
-  margin-right: 70px;
-  margin-left: 250px;
-}
-
-nav.navbar.navbar-expand-lg.navbar-light.m-0.p-0 > div > span.navbar-text {
-  margin-right: 600px;
-  padding: .5rem 1rem;
-
-}
 body > header > footer > ul > div.footer-copyright.text-center.py-3 {
   box-sizing: border-box;
 
