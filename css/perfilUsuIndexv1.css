@@ -7,8 +7,21 @@ body {
 
 }
 
+div  h6{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 
+body > header > div.color-gris > div > div > form > div.botonesForm{
+  margin-left: 39%;
+}
+
+body > header > div.color-gris > div > div > div{
+margin-bottom:3em;
+}
 
 
 form label{
