@@ -1,0 +1,25 @@
+.btn-faqs,
+.btn-faqs:hover,
+.btn-faqs:active {
+    background-color:#FF730B;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: $btn-border-width solid white;
+    margin-left: 1.5;
+
+}
+
+.modal-header{
+  background-color:#FF730B;
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+button.close{
+  background-color:#FF730B;
+}
+h5 #exampleModalScrollableTitle.modaltitle{
+  margin-left: 1.5;
+}
+.modal-title{
+  margin-left: 1.5;
+}
