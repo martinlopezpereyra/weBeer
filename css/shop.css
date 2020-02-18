@@ -1,0 +1,73 @@
+#btnPrimario{
+  background-color: #FF730B;
+  border-color: #FF730B;
+  color: white;
+text-decoration: none;
+}
+#btnSecundario{
+  font-style: #FF730B;
+  border-color: #FF730B;
+  color: #343A40;
+  text-decoration: none;
+
+}
+header{
+  height: 100%;
+  width: 100%;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    border-style: none;
+}
+
+section{
+  background-color:white;
+  min-height: 100vh;
+}
+link{
+  text-decoration: none;
+
+}
+
+
+/*nav uno*/
+nav #botones{
+list-style-type: none;
+align-content: right;
+}
+
+.btn-dark{
+ margin-right: 1%;
+}
+ /*.btn-outline-dark .m-2*/
+
+/*nav dos*/
+nav ul#navegar{
+  size: 300%;
+}
+
+.logo{
+  width: 12%;
+  margin-right: 3%;
+}
+div#navbarNavAltMarkup{
+
+}
+
+ul#navegar {
+list-style-type: none;
+float: right;
+
+}
+li{
+  margin-left: 20px;
+overflow: hidden;
+  }
+a{
+  display: block;
+}
+dl, ol, ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
