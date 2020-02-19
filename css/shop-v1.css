@@ -1,0 +1,597 @@
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width:100%; /*Saca el margen en la vista movil*/
+}
+
+/*Botones Registrarme e Iniciar sesión*/
+body > header > nav:nth-child(1) > div > span:nth-child(2) > a:nth-child(1) > button{
+background-color: #ff9640;
+border-color: #ff9640;
+}
+
+body > header > nav:nth-child(1) > div > span:nth-child(2) > a:nth-child(2) > button{
+background-color: #ff9640;
+border-color: #ff9640;
+}
+
+
+/*Iconos fontAWSOME y Menu al lado del logo*/
+
+#navbarSupportedContent  ul.navbar-nav.mr-auto li a{
+  color:#5c534e;
+}
+
+#navbarSupportedContent  ul.navbar-nav.mr-3  li a{
+  color: #5c534e;
+  font-size: 1.5em;
+}
+
+/*Abre modal faqs*/
+.btn-faqs,
+.btn-faqs:hover,
+.btn-faqs:active {
+    background-color:#FF730B;
+    font-weight: 400;
+    color: #FFFFFF;
+    box-shadow: 20px;
+    font-family:'Quicksand';
+
+}
+.modal-header{
+  background-color:#FF730B;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family:'Quicksand';
+}
+button.close{
+  background-color:#FF730B;
+}
+h5 #exampleModalScrollableTitle.modaltitle{
+  position: fixed;
+}
+.modal-title{
+  margin-left: 95px;
+}
+
+div h2{
+  font-family:'Quicksand';
+}
+h5{
+  font-family:'Quicksand';
+}
+
+/*Cierra modal faqs*/
+
+/*Abre modalito Inicio de sesion*/
+
+#myModalInicio > div > div > div.modal-body > form > div:nth-child(3) > button{
+  background-color: #FF730B;
+  border-color: #FF730B;
+}
+
+#myModalInicio > div > div > div.modal-body{
+  height: 300px;
+}
+
+#myModalInicio > div > div > div.modal-body > form{
+  margin-top: 3em;
+}
+
+
+/*Abre SHOP*/
+
+
+#btnPrimario{
+  background-color: #FF730B;
+  border-color: #FF730B;
+  color: white;
+text-decoration: none;
+}
+#btnSecundario{
+  font-style: #FF730B;
+  border-color: #FF730B;
+  color: #343A40;
+  text-decoration: none;
+
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+    border-style: none;
+}
+
+/*SHOP*/
+section{
+  background-color:#ededed;
+}
+
+body > header > section > div > div > div > div:nth-child(1) > div{
+  margin-top: 3em;
+}
+
+
+/*cierra shop*/
+
+
+/*Footer*/
+.promosBancarias{
+  width: 83%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0%;
+}
+
+/*Modal promos bancarias*/
+div.modal-header  div  img{
+width:600px;
+height:auto;
+margin top:20px;
+}
+
+.modal-confirm {
+
+		color: #8e8e8e;
+		width: 450px;
+	}
+
+	.modal-confirm .modal-content {
+
+    padding: 20px;
+		border-radius: 5px;
+		border: none;
+	}
+
+	.modal-confirm .modal-header {
+		border-bottom: none;
+    position: relative;
+		text-align: center;
+		border-radius: 5px 5px 0 0;
+	}
+
+	.modal-confirm .form-control, .modal-confirm .btn {
+		min-height: 40px;
+		border-radius: 3px;
+	}
+
+	.modal-confirm .close {
+		background: #c0c3c8;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		color: #fff;
+		text-shadow: none;
+		opacity: 0.5;
+		width: 22px;
+		height: 22px;
+		border-radius: 20px;
+		font-size: 16px;
+	}
+
+	.modal-confirm .close span {
+		position: relative;
+		top: -1px;
+	}
+
+	.modal-confirm .close:hover {
+		opacity: 0.8;
+	}
+
+	.modal-confirm .icon-box {
+		color: #f95858;
+		display: inline-block;
+		z-index: 9;
+		text-align: center;
+		position: relative;
+		transform: scale(1.5);
+	}
+
+	.modal-confirm .icon-box i:last-child {
+		font-size: 26px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: 44px;
+	}
+
+    .modal-body{
+      font-family: 'Quicksand', sans-serif;
+    }
+
+
+    .modal-confirm .btn {
+    color: #fff;
+    border-radius: 4px;
+		background: #FF730B;
+		text-decoration: none;
+		transition: all 0.4s;
+    line-height: normal;
+		border-radius: 3px;
+		margin:  0 10px;
+		padding: 6px 10px;
+		min-width: 150px;
+    border: none;
+    }
+	.modal-confirm .btn:hover, .modal-confirm .btn:focus {
+		background: #eda645;
+		outline: none;
+	}
+	.trigger-btn {
+		display:inline-block;
+		padding-top:1.5em;
+	}
+/*Cierra Modal promos bancarias*/
+
+/*=================footer css start==============*/
+
+
+
+footer{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  background-color:#FF730B;
+}
+
+footer  div.container  div.text-center.col-md-4  form{
+  padding-right: 1.7em;
+  margin-top: 1.5em;
+}
+
+ footer  div.container  div  img{
+  width: 30%;
+  height: auto;
+  margin-bottom: 1.5em;
+}
+
+
+.webintern-footer-list {
+padding: 0;
+margin-top:1.3em;
+}
+
+/*quita puntos y linea a las listas*/
+.webintern-footer-list li {
+
+margin-bottom: 0.6em;
+list-style: none;
+
+}
+
+
+
+.webintern_footer_title:after {
+content: '';
+display: block;
+width: 30px;
+height: 2px;
+background: red;
+margin-top: 15px;
+}
+
+
+.webintern-footer-list a {
+position: relative;
+font-size: 15px;
+line-height: 18px;
+font-weight: normal;
+color: #fff;
+padding-left: 0;
+letter-spacing: 1px;
+font-family: 'Quicksand', sans-serif;
+
+
+}
+
+.tt-subscribe {
+position: relative;
+}
+
+.tt-subscribe input:not([type="submit"]) {
+width: 80%;
+height: 46px;
+background: #fff;
+font-size: 15px;
+color: #838486;
+padding-left: 20px;
+padding-right: 70px;
+border: 2px solid #fff;
+-moz-border-radius: 3px;
+border-radius: 3px;
+
+}
+.tt-subscribe-submit {
+background: #001b57;
+}
+
+.tt-subscribe-submit {
+position: absolute;
+top: 0;
+right: 0;
+width: 52px;
+height: 46px;
+font-size: 18px;
+line-height: 46px;
+color: #2a2a2a;
+text-align: center;
+background: #001b57;
+-moz-border-radius-topright: 3px;
+border-top-right-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+border-bottom-right-radius: 3px;
+}
+
+
+.tt-subscribe-submit i.fa-envelope:before {
+content: "\f0e0";
+position: relative;
+z-index: 1;
+color: #fff;
+}
+.tt-subscribe-submit input {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: black;
+border: 0;
+}
+ul.tt-socail {
+padding: 0;
+margin-top: 30px;
+}
+.tt-socail li {
+display: inline-block;
+margin-right: 10px;
+}
+.tt-socail a {
+display: block;
+width: 36px;
+height: 36px;
+font-size: 17px;
+line-height: 34px;
+color: #fff;
+text-align: center;
+border: 1px solid #fff;
+-moz-border-radius: 100%;
+border-radius: 100%;
+}
+
+
+/*--Copyright-----------------------------*/
+div.footer-copyright{
+background-color: black;
+}
+
+div.footer-copyright a.copy{
+color:#FF730B;
+letter-spacing:0.03em;
+font-weight: normal;
+}
+
+/* MEDIA QUERIES*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+
+/*ocultando tarjetas*/
+body > header > div:nth-child(8){
+  display: none;
+}
+
+/*ocultando condiciones de venta*/
+body > header > section > div > img:nth-child(2){
+            display: none;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.p-0 div  button{
+            margin-right: 0.7em;
+}
+
+body > header > div.naranja > div.container.tituloPromos > h2{
+            text-align: center;
+            margin-top: 1.5em;
+}
+
+
+/*achica las cards*/
+ header  div.naranja > div.container.pt-0 > div{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+
+}
+
+div .card{
+            margin-top: 2em;
+}
+
+/*margen menu hamburguesa*/
+nav.navbar.navbar-expand-lg.navbar-light.p-0  div  a  img{
+            margin-left: 0.6em;
+  }
+
+/*ocultando espacio publicitario en version smart*/
+  div.productos-content div.col-md-3  section  div:nth-child(1){
+            display: none;
+  }
+
+  div.productos-content div.col-md-3  section  div:nth-child(2){
+            display: none;
+  }
+
+  div.productos-content div.col-md-3 section div:nth-child(3){
+            display: none;
+  }
+
+  div.productos-content div.col-md-3  section  div:nth-child(4){
+            display: none;
+  }
+/*termina ocultando espacio publicitario en version smart*/
+
+  footer  div.container  div  img{
+             width: 25%;
+             height: auto;
+             margin-bottom: 1.5em;
+             margin-top: 1.5em;
+ }
+
+div.productos-content  div.col-md-9  section.lasCervezasNegras img{
+              width: 65%;
+              height: auto;
+}
+
+body > header > div.productos-content > div > div > div.col-md-9 > section.lasCervezasRubias > div.card-deck.mt-0{
+              width: 65%;
+              margin-left: auto;
+              margin-right: auto;
+}
+
+body > header > div.productos-content > div > div > div.col-md-9 > section.lasCervezasRubias > div.card-deck.mt-4{
+              width: 65%;
+              margin-left: auto;
+              margin-right: auto;
+}
+
+  body > header > div.productos-content > div > div > div.col-md-9 > section.lasCervezasRojas > div{
+              width: 65%;
+              margin-left: auto;
+              margin-right: auto;
+}
+
+
+nav:nth-child(1) div span.navbar-text{
+              margin-left: auto;
+              margin-right:auto;
+            }
+
+nav:nth-child(1) div span:nth-child(2){
+              margin-left: auto;
+              margin-right:auto;
+              margin-bottom: 0.3em;
+            }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+
+            div.naranja  div.container.pt-0 div.row.segundaRow{
+            margin-top: 2em;
+            margin-bottom: 1em;
+            }
+
+             div.naranja  div.container.tituloPromos  h2{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0.5em;
+            }
+
+            /*ocultando condiciones de venta*/
+            body > header > section > div > img:nth-child(2){
+            display: none;
+            }
+
+            /*ocultando espacio publicitario*/
+            div.productos-content div.col-md-3  section  div:nth-child(1){
+            display: none;
+            }
+
+            div.productos-content div.col-md-3  section  div:nth-child(2){
+            display: none;
+            }
+
+            div.productos-content div.col-md-3 section div:nth-child(3){
+            display: none;
+            }
+
+            div.productos-content div.col-md-3  section  div:nth-child(4){
+            display: none;
+            }
+            /*termina ocultando espacio publicitario*/
+
+            /*ocultando tarjetas*/
+            body > header > div:nth-child(8){
+              display: none;
+          }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){
+
+        div.naranja  div.container.pt-0 div.row.segundaRow{
+        margin-top: 2em;
+        margin-bottom: 1em;
+        }
+
+          /*ocultando condiciones de venta*/
+          body > header > section > div > img:nth-child(2){
+          display: none;
+          }
+
+          /*ocultando espacio publicitario*/
+          div.productos-content > div > div > div.col-md-3 > section > div.espacioPublicitario.text-center.mb-5{
+          display: none;
+          }
+          div.productos-content div.col-md-3  section  div:nth-child(1){
+          display: none;
+          }
+
+          div.productos-content div.col-md-3  section  div:nth-child(2){
+          display: none;
+          }
+
+          div.productos-content div.col-md-3 section div:nth-child(3){
+          display: none;
+          }
+
+          div.productos-content div.col-md-3  section  div:nth-child(4){
+          display: none;
+          }
+          /*termina ocultando espacio publicitario*/
+
+          /*ocultando tarjetas*/
+          body > header > div:nth-child(8){
+          display: none;
+          }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+          /*ocultando condiciones*/
+          body > header > section > div > img:nth-child(3){
+          display: none;
+          }
+
+          body > header > div:nth-child(9){
+          display: none;
+          }
+
+          body > header > div.productos-content > div > div > div.col-md-3{
+          display: none;
+          }
+
+          /*ocultando tarjetas*/
+          body > header > div:nth-child(8){
+          display: none;
+          }
+
+
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+          body > header > section > div > img:nth-child(3){
+          display: none;
+          }
+          body > header > div:nth-child(9){
+          display: none;
+          }
+
+}
