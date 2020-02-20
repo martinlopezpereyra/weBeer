@@ -29,41 +29,10 @@
 
                     <span>
                        <a href="#myModalInicio" class="trigger-btn p-0" data-toggle="modal"><button style="; font-size:0.8em; font-weight: 400; letter-spacing:0.04em" type="button" class="btn btn-dark btn-sm">Iniciar sesión</button></a>
-                       <a href="https://www.eebria.com/account/signup/"><button style="font-size: 0.8em; font-weight: 400; letter-spacing:0.04em" type="button" class="btn btn-dark btn-sm">Registrarme</button></a>
+                       <a href="registrarme.html"><button style="font-size: 0.8em; font-weight: 400; letter-spacing:0.04em" type="button" class="btn btn-dark btn-sm">Registrarme</button></a>
                      </span>
 
 
-                     <div id="myModalInicio" class="modal fade"><!--Abre modalito Inicio de Secion-->
-                             <div class="modal-dialog modal-login">
-                               <div class="modal-content">
-                                 <div class="modal-header">
-                                   <h4 class="modal-title ">Iniciar Sesión</h4>
-                                           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                 </div>
-                                 <div class="modal-body">
-                                   <form action="/examples/actions/confirmation.php" method="post">
-                                     <div class="form-group">
-                                       <div class="input-group">
-                                         <span class="input-group-addon"><i class="fa fa-user pr-3"></i></span>
-                                         <input type="text" class="form-control" name="username" placeholder="Usuario" required="required">
-                                       </div>
-                                     </div>
-                                     <div class="form-group">
-                                       <div class="input-group">
-                                         <span class="input-group-addon"><i class="fa fa-lock pr-3"></i></span>
-                                         <input type="text" class="form-control" name="password" placeholder="Contraseña" required="required">
-                                       </div>
-                                     </div>
-                                     <div class="form-group">
-                                       <button type="submit" class="btn btn-primary btn-block btn-md">Iniciar Sesión</button>
-                                     </div>
-                                     <p class="hint-text text-center "><a href="#">¿Olvidaste tu Contraseña?</a></p>
-                                   </form>
-                                 </div>
-                                 <div class="modal-footer justify-content-center">¿No tienes una cuenta?<a href="registro.html">Crea una</a></div>
-                               </div>
-                             </div>
-                            </div><!--Cierra modalito Inicio de Secion-->
 
               </div>
           </nav>
@@ -111,6 +80,7 @@
             <ul class="navbar-nav mr-3"><!-- Iconos Fontawsome-->
                 <li class="nav-item">
                       <a class="nav-link" href="perfilUsuIndexv1.html"><i class="fa fa-user-circle"></i></a>
+
                 </li>
                 <li class="nav-item">
                          <a class="nav-link" href="shop-v1.html"><i  class="fa fa-shopping-cart"></i>
@@ -122,103 +92,8 @@
 
           </ul>
 
-                  <!--Abre modalito faqs-->
-
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModalScrollable" tabindex="10" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable" role="document">
-                      <div class="modal-content d-block">
-                        <!---modal------------->
-                        <div class="modal-header" target>
-                          <h5 class="modal-title" id="exampleModalScrollableTitle">Preguntas Frecuentes</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <!---cierre modal------------->
-                        <div class="modal-body">
-
-                          <!---botones------>
-
-                          <div class="container">
-                            <!---Boton deslizable 1------>
-                            <div class="accordion" id="accordionExample">
-                              <div class="card">
-                                  <div class="card-header" id="headingOne">
-                                      <h2 class="mb-0">
-                                        <button class="btn btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                          Cuenta
-                                        </button>
-                                      </h2>
-                                    </div>
-                                  <!--Interior------>
-                                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                          <h5>¿Cómo inicio sesión?</h5>
-                                          Debes darle al botón de Iniciar Sesión si ya tenés un usuario creado y sino darle click al botón de Registrate y
-                                          registrarte.
-                                          <h5 class="mt-3">¿Cómo asocio mi tarjeta?</h5>
-                                          En el formulario de registro asocias tu tarjeta
-                                        </div>
-                                      </div>
-                              </div>
-                            </div>
-                            <!---Boton deslizable 2------>
-                            <div class="card">
-                              <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
-                                  <button class="btn btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Tienda online
-                                  </button>
-                                </h2>
-                              </div>
-                              <!--Interior------>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <h5>¿Cuánto demora la entrega?</h5>
-                                Unos dias nomas..
-                                <h5>¿Puedo cambiar mi dirección?</h5>
-                                Si, a mi cora bb
-                                <h5>¿Hacen envíos a todo el país?</h5>
-                                Depende...
-                              </div>
-                            </div>
-                          </div> <!---cierre boton desplegable 2------------->
-                          <!---Boton deslizable 3------>
-                          <div class="card">
-                            <div class="card-header" id="headingThree">
-                              <h2 class="mb-0">
-                                <button class="btn btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  Facturación
-                                </button>
-                              </h2>
-                            </div>
-                            <!--Interior------>
-                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body">
-                              <h5>¿Cuándo es mi última oportunidad de cancelar?</h5>
-                              Nunca muaaajajajajaj
-                              <h5>¿Por qué se rechazó mi pago?</h5>
-                              Por pobre..
-                            </div>
-                          </div>
-                        </div> <!---cierre boton desplegable 3------------->
-
-                       <!---cierre boton desplegable 4------------->
-
-                  </div>
-                  </div><!---cierre container------------->
-                      </div><!---cierre modal body------------->
-
-                        </div>
-
-                      </div><!---cierre modal------------->
 
 
-
-
-
-                  <!--Cierra modalito faqs-->
 
 
             <form class="form-inline my-2 my-lg-0"><!--Search button Boostrap-->
@@ -303,7 +178,7 @@
                       <h6 style="color:grey;"class="card-title">FRANGUS Especial Navidad/Botella 350ml</h6>
                       <p class="card-text price-new"><h5>ARS $300</h5></p>
                       <del class="price-old">ARS $450</del></p>
-                      <a href="#" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      <a href="shop-v1.html" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                 </div>
               </div><!--Cierre PRODUCTO 1-->
 
@@ -316,7 +191,7 @@
                       <h6 style="color:grey;" class="card-title">AEROPOSTAL Botella x 6 <br>330ml</h6>
                       <p class="card-text"><h5>ARS $1700</h5></p>
                       <del class="price-old">ARS $1950</del></p>
-                      <a href="#" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      <a href="shop-v1.html" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                   </div>
               </div><!--Cierre PRODUCTO 2-->
 
@@ -329,7 +204,7 @@
                       <h6 style="color:grey;" class="card-title">WIT IPA/Botella <br>330ml</h6>
                       <p class="card-text"><h5>ARS $500</h5></p>
                       <del class="price-old">ARS $450</del></p>
-                      <a href="#" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      <a href="shop-v1.html" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                   </div>
               </div><!--Cierre PRODUCTO 3-->
 
@@ -342,7 +217,7 @@
                       <h6 style="color:grey;" class="card-title">BRUTO DIAMANTE Botella x1 330ml</h6>
                       <p class="card-text"><h5>ARS $300</h5></p>
                       <del class="price-old">ARS $600</del></p>
-                      <a href="#" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      <a href="shop-v1.html" class="btn btn-primary">Cargar al <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                   </div>
               </div><!--Cierre PRODUCTO 4-->
 
@@ -372,84 +247,73 @@
     <div class="todas">
       <div class="row">
               <div class="col-md-3"><!--Buscador Lateral-->
-                  <div class="list-group ml-4">
-                  <a href="#" class="list-group-item disabled bg-light">BUSCAR POR</a>
 
 
 
+                <div class="ml-4 mt-0">
+                <aside class="filters grid" role="complementary">
+                      <h3 class="mb-4">CERVEZAS ARTESANALES, <br>BOTELLA<br> INDIVIDUAL,
+                        LATA, <br>PACK, GROWLING</h3>
+                      <div class="quantity-results mt-4 mb-4">50 resultados</div>
+                      <section class="filters__groups">
+                      <dl class="filters__group filters__NARRATION_TYPE " id="id_NARRATION_TYPE" role="presentation">
+                        <dt class="dt-title" role="presentation">Tipo de cerveza</dt>
+                        <dd class="filters__group__option" role="option"> <a class="qcat-truncate " style="max-width:130px;" title="Manual" href="#"> <span class="filter-name">Page Lager</span> <span class="filter-results-qty">(20)</span> </a> </dd>
+                        <dd class="filters__group__option" role="option"> <a class="qcat-truncate " style="max-width:137px;" title="Novela" href="#"> <span class="filter-name">Pilsner</span> <span class="filter-results-qty">(10)</span> </a> </dd>
+                        <dd class="filters__group__option" role="option"> <a class="qcat-truncate " style="max-width:137px;" title="Cuento" href="#"> <span class="filter-name">Helles</span> <span class="filter-results-qty">(10)</span> </a> </dd>
+                        <dd class="filters__group__option" role="option"> <a class="qcat-truncate " style="max-width:137px;" title="Cuento" href="#"> <span class="filter-name">Pale Ale</span> <span class="filter-results-qty">(30)</span> </a> </dd>
+                      </dl>
+
+                      <dl class="filters__group filters__price mt-4 mb-4 " id="id_price" role="listbox">
+
+                        <dt class="dt-title " role="presentation">Precio</dt> <dd class="filters__group__option" role="option">
+                          <a class="qcat-truncate " style="max-width:130px;" title="Hasta $ 250" href="https://libros.mercadolibre.com.ar/libros/diccionarios-y-enciclopedias/_DisplayType_G_PriceRange_0-250"> <span class="filter-name">Hasta $ 250</span> <span class="filter-results-qty">(30)</span> </a>
+                        </dd>
+                        <dd class="filters__group__option" role="option"> <a class="qcat-truncate " style="max-width:123px;" title="$250 a $1.000" href="https://libros.mercadolibre.com.ar/libros/diccionarios-y-enciclopedias/_DisplayType_G_PriceRange_250-1000"> <span class="filter-name">$250 a $1.000</span> <span class="filter-results-qty">(46)</span> </a>
+                        </dd>
+                        <dd class="filters__group__option" role="option"> <a class="qcat-truncate " style="max-width:123px;" title="Más de $1.000" href="https://libros.mercadolibre.com.ar/libros/diccionarios-y-enciclopedias/_DisplayType_G_PriceRange_1000-0"> <span class="filter-name">Más de $1.000</span> <span class="filter-results-qty">(10)</span> </a>
+                        </dd>
+
+
+                        <form id="priceForm" class="price-filter clearfix" action="/search/addPriceFilter" method="post"> <input type="hidden" id="priceFilterBaseUrl" name="baseUrl" value="https://libros.mercadolibre.com.ar/libros/diccionarios-y-enciclopedias/_DisplayType_G_PriceRange_0-0"> <input type="hidden" id="price_currencyId" value=""> <input type="hidden" id="price_currencySymbol" value="">
+                          <input type="hidden" id="price_numberSeparator" value=".">
+                          <fieldset class="price-filter__fieldset">
+                           <div class="price-filter__column">
+                             <label class="price-filter__label" for="fromPrice"> <input type="number" name="fromPrice" id="fromPrice" class="price-filter__value" value="" placeholder="Mínimo" tabindex="93">
+                             </label>
+                           </div>
+                             <div class="price-filter__column">
+                             <label class="price-filter__label" for="toPrice"> <input type="number" name="toPrice" id="toPrice" class="price-filter__value" value="" placeholder="Máximo" tabindex="94">
+                             </label>
+                           </div>
+                         </fieldset>
+                         <div class="price-filter__actions">
+                           <i class="fa fa-chevron-circle-right"></i>
+
+                        <!--   <button type="submit" class="price-filter__action-link filter-action-btn filter-action-btn__disabled" value tabindex="95">-->
+                           </button>
+                         </div>
+                        </form>
+                      </dl>
+
+
+                      </section>
 
 
 
-
-
-
-                  <div data-role="page">
-                        <div data-role="header">
-                          <!--https://bootsnipp.com/snippets/M52Gl-->
-                          <h5 class="text-center pt-3">Rango de precio</h5>
-                        </div>
-
-                        <div data-role="main" class="ui-content">
-                          <form method="post" action="/action_page_post.php">
-
-                            <div data-role="rangeslider">
-                              <label for="price-min">Precio:</label>
-                              <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
-                              <label for="price-max">Precio:</label>
-                              <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
-                            </div>
-                              <input type="submit" data-inline="true" value="Enviar">
-
-                            </form>
-                        </div>
-                          <p style="color:#d1d1d1;line-height:1em"class="text-center mt-3">¡El precio que buscás!</p>
-                  </div>
-
-                  <div class="buscadorPorPrecio">
-                  </div>
-
-                  <!--Filtro 1
-                  <a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" class="list-group-item">PRECIO</a>
-                  <div class="row">
-                  <div class="col">
-                  <div class="collapse multi-collapse" id="multiCollapseExample1">
-                  <div class="card card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                  </div>
-                  </div>
-                  </div>-->
-
-
-
-                  </div>
-
-
-                  <div class="list-group ml-4 mt-4">
-                  <a href="#" class="list-group-item disabled bg-light">IR A</a>
-                  <a href="#" class="list-group-item">PRECIO</a>
-                  <a href="#" class="list-group-item">TIPO</a>
-                  <a href="#" class="list-group-item">FAVORITAS</a>
-                  </div>
+                </aside>
+              </div>
 
                   <section class="pubilicidadWeBeer"><!--Esp. p/ PUBLICIDAD 1-->
-                  <div style="height: 40em;" class="espacioPublicitario text-center"><a  href="#">Espacio para publicidad</a>
+                  <div style="height: 30em;" class="espacioPublicitario text-center"><a  href="#"></a>
                   </div>
                   <!--Esp. p/ PUBLICIDAD 2 -->
-                  <div style="height: 20em;" class="espacioPublicitario text-center"><a  href="#">Espacio para publicidad</a>
+                  <div style="height: 20em;" class="espacioPublicitario text-center"><a  href="#"></a>
                   </div>
                   <!--Esp. p/ PUBLICIDAD 3 -->
-                  <div style="height: 18em;" class="espacioPublicitario text-center "><a  href="#">Espacio para publicidad</a>
+                  <div style="height: 15em;" class="espacioPublicitario text-center "><a  href="#"></a>
                   </div>
-                  <!--Esp. p/ PUBLICIDAD 4 -->
-                  <div style="height: 12em;" class="espacioPublicitario text-center "><a  href="#">Espacio para publicidad</a>
-                  </div>
-                  <!--Esp. p/ PUBLICIDAD 5 -->
-                  <div style="height: 12em;" class="espacioPublicitario text-center mb-5"><a  href="#">Espacio para publicidad</a>
-                  </div>
-                  <!--Esp. p/ PUBLICIDAD 6
-                  <div style="height: 12em;" class="espacioPublicitario text-center mb-5"><a  href="#">Espacio para publicidad</a>
-                  </div> -->
-                </section><!--Cierra Esp. p/ PUBLICIDAD  -->
+                  </section><!--Cierra Esp. p/ PUBLICIDAD  -->
               </div><!--Termina Buscador Lateral-->
 
               <div style="background-color: white;"class="col-md-9"><!--Muestra de PRODUCTOS-DERECHA-->
@@ -497,7 +361,7 @@
                                             <h5>Frangus-Botella 330ml</h5>
                                             <img style="height:350px; width:300px;"src="img/botellas_individuales/cerveza-minerva-pale-ale.png" class="card-img-top" alt="...">
                                             <p><h6>Descripción: Origen: Chachingo. Maipú. Mendoza. Cerveza suave con sabores a miel tostada y dulce de membrillo.</h6></p>
-                                            <a href="#" class="btn btn-primary">COMPRAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                            <a href="shop-v1.html" class="btn btn-primary">COMPRAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 			                                    </div>
 		                                </div>
 	                              </div>
@@ -509,7 +373,7 @@
 
 
 
-                          <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                          <a href="shop-v1.html" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                           </div>
                         </div>
                     </div><!-- cierra 1-->
@@ -523,7 +387,7 @@
                                 <!--<p style="color:grey;" class="origen">Maipú | Mendoza.</p>-->
                                 <div class="btnCardsRubias">
                                 <a href="#" class="btn btn-primary">VER</a>
-                                <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                <a href="shop-v1.html" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                                 </div>
                               </div>
                 </div><!-- cierra 2-->
@@ -537,7 +401,7 @@
                                 <!--<p style="color:grey;" class="origen">Maipú | Mendoza.</p>-->
                                 <div class="btnCardsRubias">
                                 <a href="#" class="btn btn-primary">VER</a>
-                                <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                <a href="shop-v1.html" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                                 </div>
                                 </div>
                 </div><!-- cierra 3-->
@@ -845,14 +709,31 @@
 <div class="text-center">
 <a name="promosBancarias " id="bancos" href="#myModal" class="trigger-btn" data-toggle="modal">
 <img src="img/785X40.jpg" class="mb-3 promosBancarias" alt="promos bancarias"></a>
+<!-- 3 MODAL PROMOS BANCARIAS -->
+      <div id="myModal" class="modal fade justify-content-center">
+      	  <div class="modal-dialog modal-confirm">
+      		<div style="width:643px;"class="modal-content">
+    			<div class="modal-header p-0">
+  				<div class="promosFebrero justify-content-center">
+					<img src="img/promos-bancarias.jpg"  alt="promos bancarias">
+				  </div>
+      </div>
 
+      <div class="modal-body text-center">
+					<p>Consultar bases y condiciones. WeBeer no se responabilisa del aviso de promociones que ya no estén vigentes.</p>
+				  <button class="btn btn-primary" data-dismiss="modal"><strong>CERRAR</strong></button>
+			    </div>
+		      </div>
+	        </div>
+      </div>
+<!-- CIERRA MODAL PROMOS BANCARIAS -->
 
 	<!-- Button HTML (to Trigger Modal) -->
 
 </div>
 
 <div class="text-center">
-<a name="promosBancarias " id="bancos" href="#myModal" class="trigger-btn" data-toggle="modal">
+<a name="promosBancarias" id="bancos" href="#myModal" class="trigger-btn" data-toggle="modal">
 <img src="img/tarjetas-small.png" class="mb-3 promosBancarias" alt="promos bancarias"></a>
 
 
@@ -860,23 +741,7 @@
 
 </div>
 
-<!-- Modal HTML -->
-<div id="myModal" class="modal fade justify-content-center">
-	<div class="modal-dialog modal-confirm">
-		<div style="width:643px;"class="modal-content">
-			<div class="modal-header p-0">
-				<div class="promosFebrero justify-content-center">
-					<img src="img/promos-bancarias.jpg"  alt="promos bancarias">
 
-				</div>
-			</div>
-			<div class="modal-body text-center">
-							<p>Consultar bases y condiciones. WeBeer no se responabilisa del aviso de promociones que ya no estén vigentes.</p>
-				<button class="btn btn-primary" data-dismiss="modal"><strong>CERRAR</strong></button>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 
@@ -939,6 +804,134 @@
 
 </footer><!--cierra footer>-->
 
+<!--Modales-->
+
+<!-- 1 Abre modalito Inicio de Sesion-->
+ <div id="myModalInicio" class="modal fade">
+         <div class="modal-dialog modal-login">
+           <div style="width:400px;" class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title ">Iniciar Sesión</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+             </div>
+             <div class="modal-body">
+               <form action="/examples/actions/confirmation.php" method="post">
+                 <div class="form-group">
+                   <div class="input-group">
+                     <span class="input-group-addon"><i class="fa fa-user pr-3"></i></span>
+                     <input type="text" class="form-control" name="username" placeholder="Usuario" required="required">
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <div class="input-group">
+                     <span class="input-group-addon"><i class="fa fa-lock pr-3"></i></span>
+                     <input type="text" class="form-control" name="password" placeholder="Contraseña" required="required">
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <button type="submit" class="btn btn-primary btn-block btn-md">Iniciar Sesión</button>
+                 </div>
+                 <p class="hint-text text-center "><a href="#">¿Olvidaste tu Contraseña?</a></p>
+               </form>
+             </div>
+             <div class="modal-footer justify-content-center">¿No tienes una cuenta?<a href="registro.html">Crea una</a></div>
+           </div>
+         </div>
+        </div>
+<!--Cierra modalito Inicio de Sesion-->
+
+
+<!-- 2 ABRE FAQS MODAL-->
+      <div class="modal fade" id="exampleModalScrollable" tabindex="10" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content d-block">
+      <!---modal------------->
+      <div class="modal-header " target>
+        <h5 class="modal-title " id="exampleModalScrollableTitle">Preguntas Frecuentes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!---cierre modal------------->
+      <div class="modal-body">
+
+        <!---botones------>
+
+        <div style="display: flex; width:100%;"class="container">
+          <!---Boton deslizable 1------>
+
+          <div style="flex-direction: column;width:100%;" class="accordion card" id="accordionExample">
+            <div class="card">
+                <div  class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Cuenta
+                      </button>
+                    </h2>
+                  </div>
+                <!--Interior------>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <h5>¿Cómo inicio sesión?</h5>
+                        Debes darle al botón de Iniciar Sesión si ya tenés un usuario creado y sino darle click al botón de Registrate y registrarte.<br>
+                        <h5 class="mt-3">¿Cómo asocio mi tarjeta?</h5>
+                        En el formulario de registro asocias tu tarjeta<br>
+                      </div>
+                    </div>
+            </div>
+
+          <!---Boton deslizable 2------>
+          <div class="card">
+            <div style="width:100%;" class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Tienda online
+                </button>
+              </h2>
+            </div>
+            <!--Interior------>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <h5>¿Cuánto demora la entrega?</h5>
+              Unos dias nomas..<br>
+              <h5>¿Puedo cambiar mi dirección?</h5>
+              Si, a mi cora bb<br>
+              <h5>¿Hacen envíos a todo el país?</h5>
+              Depende...<br>
+            </div>
+          </div>
+        </div> <!---cierre boton desplegable 2------------->
+        <!---Boton deslizable 3------>
+        <div class="card">
+          <div style="width:100%;" class="card-header " id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Facturación
+              </button>
+            </h2>
+          </div>
+          <!--Interior------>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            <h5>¿Cuándo es mi última oportunidad de cancelar?</h5>
+            Nunca muaaajajajajaj
+            <h5>¿Por qué se rechazó mi pago?</h5>
+            Por pobre..
+          </div>
+        </div>
+      </div> <!----------cierre boton desplegable 3------------->
+
+   </div> <!-- cierre accordion-->
+      </div><!----------cierre container------------->
+    </div><!----------cierre modal body------------->
+
+      </div>
+
+    </div><!-- cierra modal-->
+<!--CIERRA FAQS MODAL-->
+
+
+
 
 <!-- JS -->
   <script src="js/index.js"></script>
@@ -950,6 +943,5 @@
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
   </body>
 </html>
