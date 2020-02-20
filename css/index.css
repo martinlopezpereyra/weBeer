@@ -4,9 +4,6 @@ body {
   width:100%; /*Saca el margen en la vista movil*/
 }
 
-
-
-
 /*Botones Registrarme e Iniciar sesión*/
 body > header > nav:nth-child(1) > div > span:nth-child(2) > a:nth-child(1) > button{
 background-color: #ff9640;
@@ -347,25 +344,22 @@ div.productos-content  div.col-md-9 div .btnCardsRojas a{
 }
 
 /*Modal promos bancarias*/
+#myModal > div > div{
+  width:643px;
+  margin: auto;
+}
 
-
-
- div.modal-header  div  img{
-width:600px;
+div.modal-header  div  img{
+width:610px;
 height:auto;
-
 margin top:20px;
-
-
 }
 
 .modal-confirm {
-
 		color: #8e8e8e;
 		width: 450px;
 	}
 	.modal-confirm .modal-content {
-
     padding: 20px;
 		border-radius: 5px;
 		border: none;
@@ -401,7 +395,7 @@ margin top:20px;
 	.modal-confirm .close:hover {
 		opacity: 0.8;
 	}
-	.modal-confirm .icon-box {
+  .modal-confirm .icon-box {
 		color: #f95858;
 		display: inline-block;
 		z-index: 9;
