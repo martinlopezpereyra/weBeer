@@ -27,60 +27,21 @@ border-color: #ff9640;
   font-size: 1.5em;
 }
 
-/*Abre modal faqs*/
-.btn-faqs,
-.btn-faqs:hover,
-.btn-faqs:active {
-    background-color:#FF730B;
-    font-weight: 400;
-    color: #FFFFFF;
-    box-shadow: 20px;
-    font-family:'Quicksand';
-
-}
-.modal-header{
-  background-color:#FF730B;
-  color: #FFFFFF;
-  text-decoration: none;
-  font-family:'Quicksand';
-}
-button.close{
-  background-color:#FF730B;
-}
-h5 #exampleModalScrollableTitle.modaltitle{
-  position: fixed;
-}
-.modal-title{
-  margin-left: 95px;
-}
-
-div h2{
-  font-family:'Quicksand';
-}
-h5{
-  font-family:'Quicksand';
-}
-
-/*Cierra modal faqs*/
-
-/*Abre modalito Inicio de sesion*/
-
-#myModalInicio > div > div > div.modal-body > form > div:nth-child(3) > button{
-  background-color: #FF730B;
-  border-color: #FF730B;
-}
-
-#myModalInicio > div > div > div.modal-body{
-  height: 300px;
-}
-
-#myModalInicio > div > div > div.modal-body > form{
-  margin-top: 3em;
-}
-
 
 /*Abre SHOP*/
 
+
+body > header > section > div > div > div > div:nth-child(1) > div > div > table > thead > tr{
+  background-color: #e8e8e8;
+}
+
+body > header > section > div > div > div > div.row.py-5.p-4.bg-white.rounded.shadow-sm > div:nth-child(1) > div:nth-child(1){
+    background-color: #e8e8e8;
+}
+
+body > header > section > div > div > div > div.row.py-5.p-4.bg-white.rounded.shadow-sm > div:nth-child(2) > div.border-0.px-4.py-3.text-uppercase{
+  background-color: #e8e8e8;
+}
 
 #btnPrimario{
   background-color: #FF730B;

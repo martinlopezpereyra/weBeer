@@ -3,8 +3,6 @@ body {
   height: 100%;
   width:100%; /*Saca el margen en la vista movil*/
   background-color: yellow;
-
-
 }
 
 div  h6{
@@ -13,29 +11,24 @@ div  h6{
   margin-top: 1em;
   margin-bottom: 1em;
 }
-
-div.color-gris > div > div > form > h5{
-  font-family: 'Quicksand', sans-serif;
-  color: white;
-
+body > header > div.color-gris > div > form > div.botonesForm.mt-4 > button{
+  width:40%;
+  margin-left: 7em;
 }
 
-body > header > div.color-gris > div > div > form > div.botonesForm{
+div.color-gris > div > div > form > div.botonesForm{
   margin-left: 35%;
 }
 
-body > header > div.color-gris > div > div > form{
-  width:23em;
+div.color-gris > div > form{
+  width:25em;
   margin: auto;
 }
 
 
-
-
-body > header > div.color-gris > div > div > div{
+div.color-gris > div > div > div{
 margin-bottom:3em;
 }
-
 
 form label{
   font-family: 'Quicksand', sans-serif;
@@ -96,15 +89,6 @@ border-color: #ff9640;
 }
 
 
-
-
-
-
-
-
-
-
-
 .container{
     padding-top: 2%;
     padding-bottom: 2%;
@@ -113,14 +97,6 @@ border-color: #ff9640;
     flex-direction: row;
     justify-content: space-between;
 }
-
-
-
-
-
-
-
-
 
 
 div.productos-content div.col-md-9 div.card-body.p-0  div button{
